@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Nelson Bighetti
+name: Damiano Lodi
 
 # Username (this should match the folder name)
 authors:
@@ -14,7 +14,7 @@ role: Professor of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-- name: Stanford University
+- name: UpSens
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,9 +27,6 @@ interests:
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
   - course: MEng in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2009
