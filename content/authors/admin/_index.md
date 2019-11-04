@@ -65,6 +65,8 @@ user_groups: []
 
 ---
 
-I am a physicist with a strong interest in business, startups and practical application of modern technologies. ... 
+I am a physicist with a strong interest in business, startups and practical application of modern technologies. I am currently delving into the world of machine learning and artificial intelligence, which I find increadibly fascinating and full of potential in so many different sectors. In particular, I am more interested in applications oriented towards environment protection and innovation.
 
-Currently, I work at UpSens, an Italian startup focused on the development of environmental monitoring devices. It is part of the Optoi group, a major Italian group committed to the sensors and IoT world. 
+Currently, I work at UpSens, an Italian startup focused on the development of environmental monitoring devices. It is part of the Optoi group, a major Italian group committed to the sensors and IoT world.
+
+In my free time, I enjoy tasting and researching new teas from all over the world. This is my way to briefly stop nowadays frenetic life, reorganize ideas and restart working with even more passion and perseverance towards my goals.
