@@ -21,7 +21,7 @@ organizations:
 bio: I am a physicist with a strong interest in machine learning, robotics and practical application of techonlogy. (change)
 
 interests:
-- Robotics and ArI
+- Robotics and AI
 - Data Science
 - Electronics
 - Tea
@@ -49,7 +49,7 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/damiano-lodi/
-  
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 - icon: cv
@@ -65,6 +65,6 @@ user_groups: []
 
 ---
 
-I am a physicist with a strong interest in business, startups and practical application of modern technologies. I love discovering how modern technologies are applied in different context, with a particular focus on en 
+I am a physicist with a strong interest in business, startups and practical application of modern technologies. ... 
 
-In the free time, I like to enjoy and discover new teas from around the world.
+Currently, I work at UpSens, an Italian startup focused on the development of environmental monitoring devices. It is part of the Optoi group, a major Italian group committed to the sensors and IoT world. 
