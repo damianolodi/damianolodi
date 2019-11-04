@@ -28,10 +28,10 @@ interests:
 
 education:
   courses:
-  - course: MSc. Experimental Physics (Nanophotonics)
+  - course: MSc in Experimental Physics (Nanophotonics)
     institution: University of Trento, Italy
     year: 2019
-  - course: Bachelor Degree in Physics
+  - course: BSc in Physics
     institution: University of Trento, Italy
     year: 2016
 
