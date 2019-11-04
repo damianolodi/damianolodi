@@ -28,7 +28,7 @@ date_format = "January 2006"
   """
 
 [[experience]]
-  title = "Internship for MSc. Thesis Research"
+  title = "Internship for MS Thesis Research"
   company = "UpSens"
   company_url = "https://www.upsens.com/"
   location = "Trento, Italy"
