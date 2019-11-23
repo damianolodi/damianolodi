@@ -27,6 +27,11 @@ weight: 1
 - Place text comments on the schematic and divide in blocks to simply understanding.
 - Export netlist.
 
+### General Tips \& Tricks
+- If possible, the convention says to place inputs on the left, outputs on the right.
+- Arrange symbols in functional blocks.
+- Don't mix EU and US symbols, stick only to a single convention.
+
 ---
 ## PCB Layout Workflow
 1. Set grid and design rules:
