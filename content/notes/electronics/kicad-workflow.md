@@ -14,4 +14,51 @@ menu:
 weight: 1
 ---
 
+## Schematic Design Workflow
 
+1. Set grid and page settings.
+- Place all symbols on the page.
+- Arrange all symbols on the page (without connecting them).
+- Annotate the schematic.
+- Associate footprints to all symbol libraries.
+- Wire every element and assign power flags to power symbols.
+- Assign custom names to (at least some) nets, so that connections understanding is simplified.
+- Regularly run ERC (Electrical Rules Check).
+- Place text comments on the schematic and divide in blocks to simply understanding.
+- Export netlist.
+
+---
+## PCB Layout Workflow
+1. Set grid and design rules:
+  - number of layers;
+  - PCB manufacturing constraings;
+  - net class widths (usually 1 big and 1 small).
+- Define board outline based on design constrains (**edge.cuts layer**).
+- Place mounting holes (if necessary).
+- Place all footprints on the board thinking to (3D) dimensional constraints and necessary connections.
+- Route all the tracks:
+  - _start with critical tracks_ (e.g. the ones that requires certain lenghts for impedance matching);
+  - route power traces;
+  - place all the remaninig tracks.
+- Add copper fills.
+- Complete silkscreen artworks:
+  - add _name \& version_ of the board;
+  - place _logo \& artworks_;
+  - annotate other instructions that may help the end user (e.g. components names, connectors pin name, components values,...).
+- Apply DRC (Design Rules Check).
+- Generate gerber and drill files.
+
+### General Tips \& Tricks
+- If possible, _keep the board rectangular in shape_ (this simplify mounting and decrease production cost).
+- _Take care of high power/high temperature components_ (look at the datasheet to accomodate enough space and heatsink).
+
+#### Traces
+- Keep traces _as short as possible_:
+  - this will decrease resistance to current flow and minimize energy loss in the form of heat;
+  - trace lenght affect also signal propagation time (very important for high-speed applications).
+- **Avoid sharp angles**. They can generate interferences due to signal reflection (especially true for application at frequencies higher than $200\,\text{MHz}$). _Use $45^{\circ}$ angles or rounded edges when changing track direction_.
+- _Increase copper weight only when necessary_: it improve electrical characteristics of the board but it increase also etching costs.
+- **Increase track width for high power/high current lines**. _Use the KiCad width calculator to find the right dimension_.
+- Always set correct tracks separations:
+  - consider always _manufacturing limits_ and _interference limits_ (crosstalk in high-frequency applications);
+  - $0.15 \text{mm}$ is good for every manufacturer nowadays.

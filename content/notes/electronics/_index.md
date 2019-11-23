@@ -19,6 +19,10 @@ menu:
   electronics:
     name: Overview
     weight: 1
+
+######### AGGIUNGI
+# Descirizone KiCad
+# References utili per impararlo
 ---
 
 ## KiCad
