@@ -24,6 +24,11 @@
 #   weight = 40
 
 [[main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 40
+
+[[main]]
   name = "CV"
   url = "/files/cv.pdf"
   weight = 50
