@@ -12,9 +12,15 @@ menu:
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 3
+
+##### AGGIUNGI
+# procedimento per creare simboli custom
+# preocedimento per creare custom logo
 ---
 
 ## Custom Symbol Workflow
+
+1. ...
 
 ---
 ## Custom Footprints Workflow

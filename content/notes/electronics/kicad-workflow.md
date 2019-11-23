@@ -34,13 +34,18 @@ weight: 1
 
 ---
 ## PCB Layout Workflow
-1. Set grid and design rules:
-  - number of layers;
-  - PCB manufacturing constraings;
-  - net class widths (usually 1 big and 1 small).
+1. Set page settings (title, author,...)
+- Set grid and design rules:
+  - number of layers and types;
+  - global design rules based on PCB manufacturing constrains;
+  - net class widths (usually 1 big and 1 small);
+  - set text and graphics parameters;
+  - define tracks and vias widht so that they are present in the top toolbar menus.
 - Define board outline based on design constrains (**edge.cuts layer**).
 - Place mounting holes (if necessary).
-- Place all footprints on the board thinking to (3D) dimensional constraints and necessary connections.
+- Place all footprints on the board thinking to (3D) dimensional constraints and necessary connections. Use _Align/Distribute_ to organize the placement.
+- Then, lock all footptints in place.
+- Use _Align/Distribute_ to organize
 - Route all the tracks:
   - _start with critical tracks_ (e.g. the ones that requires certain lenghts for impedance matching);
   - route power traces;

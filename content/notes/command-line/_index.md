@@ -30,3 +30,5 @@ menu:
 
 ---
 ## Homebrew
+
+Hombrew is a package manager for macOS. With it you can install software and applications from the terminal. You can also maintain everything updated with two simple commands and uninstall anything you don't need anymore.
