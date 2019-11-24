@@ -24,7 +24,7 @@ weight: 3
 
 ---
 ## Custom Footprints Workflow
-1. Draw the outline of the package in the _F.fab_ layer, as reported on the proper datasheet.
+1. Outline the package in the _F.fab_ layer, as reported on the proper datasheet.
 - Place the pads and edit their properties. Control that their placement is correct as reported on the datasheet.
   - Add NPTH-mechanical hole if necessary.
 - Place minimal graphics and text on the _F.SilkS_ layer.

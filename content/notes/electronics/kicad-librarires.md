@@ -20,12 +20,12 @@ weight: 1
 ## Library Management
 
 ### Symbol Libraries
-Sumbol libraries are contained into `.lib` files. The library can be placed anywhere on the system and added to the list of libraries that KiCad will access to (from _Preferences_>_Manage Symbol Libraries_ in Eeschema). 
+Symbol libraries are contained into `.lib` files. The library can be placed anywhere on the system and added to the list of libraries that KiCad will access to (from _Preferences_>_Manage Symbol Libraries_ in Eeschema). 
 
 
 ### Footprint Libraries
 
-Footprints are contained into directories named as `dirName.pretty`. The direcotry can be placed anywhere on the system and added to the list of libraries that KiCad will access to (from _Preferences_>_Manage Footprint Libraries_ in PCBNew).
+Footprints are contained into directories named as `dirName.pretty`. The directory can be placed anywhere on the system and added to the list of libraries that KiCad will access to (from _Preferences_>_Manage Footprint Libraries_ in PCBNew).
 
 ### 3D Shape Libraries
 

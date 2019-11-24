@@ -1,5 +1,5 @@
 ---
-title: General Concepts
+title: General Informations
 linktitle: General
 toc: false
 type: docs
@@ -26,7 +26,7 @@ All the hotkeys can be seen in _Help > List Hotkeys_.
 - C &rarr; copy.
 - R &rarr; rotate.
 - G &rarr; drag component.
-- M &rarr; move compinent or wire.
+- M &rarr; move component or wire.
 - W &rarr; new wire.
 - Space bar &rarr; place to 0 the cursor placement in the bottom-right part of the screen. Useful to measure distances.
 - X &rarr; new track.
@@ -35,13 +35,19 @@ All the hotkeys can be seen in _Help > List Hotkeys_.
 - B &rarr; re-fill all zones.
 
 ---
-## General Tips \& Tricks
+## Tips \& Tricks
 
-1. When the project needs to be shared an it contains footprints from a personal library, the project can be "archived" from _File > Archive Footprints > Create New Library and Archive Footprints_. In this way, a new footprint library is created inside the project folder so that everyone can open the project correctly.
-2. Different PCB design can be created from a single schematic in a single project. When the first design is created, use _File > Save Copy As_ to save a version of the current board. (The same thing cna be done with git using different branches)
+1. When the project needs to be shared and it contains footprints from a personal library, the project can be "archived" from _File > Archive Footprints > Create New Library and Archive Footprints_. In this way, a new footprint library is created inside the project folder so that everyone can open the project correctly.
+2. Different PCB design can be created from a single schematic in a single project. When the first design is created, use _File > Save Copy As_ to save a version of the current board. (The same thing can be done with git using different branches)
 
 ---
 
 ## Widgets
 
 ### Bill of Materials
+
+---
+## Resources
+
+- [KiCad Like a Pro 2nd Edition](https://www.udemy.com/share/101XZU/) - Udemy course from Peter Dalmaris. _(I find this to be the best resource if you want to start quickly and effectively in KiCad 5)_
+- [KiCad Documentation](http://docs.kicad-pcb.org/)
