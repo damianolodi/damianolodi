@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Command Line Tools
 summary: Bash, fish and hombrew basic concepts
-weight: 1
+weight: 3
 
 # Page metadata.
 title: Overview
@@ -21,6 +21,9 @@ menu:
     weight: 1
 ---
 
+## Git
+
+---
 ## Bash
 
 

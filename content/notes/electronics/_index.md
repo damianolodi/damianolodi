@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Electronics
 summary: Personal notes about electronics related topics and pojects
-weight: 3
+weight: 2
 
 # Page metadata.
 title: Overview
