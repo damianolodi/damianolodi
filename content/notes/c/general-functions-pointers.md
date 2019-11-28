@@ -1,5 +1,5 @@
 ---
-title: Custom Symbols and Footprints
+title: Functions and Pointers
 linktitle: Functions and Pointers
 toc: false
 type: docs

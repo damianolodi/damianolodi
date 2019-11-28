@@ -1,5 +1,5 @@
 ---
-title: Custom Symbols and Footprints
+title: Loops and Conditionals
 linktitle: Loops and Conditionals
 toc: false
 type: docs

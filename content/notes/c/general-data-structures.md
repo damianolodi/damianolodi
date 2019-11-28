@@ -1,5 +1,5 @@
 ---
-title: Custom Symbols and Footprints
+title: Data Structures
 linktitle: Data Structures
 toc: false
 type: docs
