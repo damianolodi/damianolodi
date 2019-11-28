@@ -118,10 +118,44 @@ else:
 ```
 
 ---
+## VS Code Setup
+
+### Shortcuts
+-   `cmd + shift + P` &rarr; open command palette
+-   Python interpreter used (version) is displayed in the botton left corner. Can be changed clicking on that
+-   When modify settings in json, on the left of each line there is an icon that suggest all the possible value for each parameter
+
+### Extensions
+
+Python, vscode-icon
+
+### Settings
+
+-   **Color themes** &rarr; default dark theme is ok.
+-   **File icons** &rarr; _vscode-icon_ or _material icon theme._
+-   Open user settings and place the following code:
+
+```json
+"workbench.settings.editor": "json",
+"workbench.settings.openDefaultSettings": true,
+"workbench.settings.useSplitJSON": true,
+"editor.fontSize": 16,
+"debug.console.fontSize": 16,
+"terminal.integrated.fontSize": 16,
+"python.formatting.provider": "black",
+"editor.formatOnSave": true
+```
+
+- Then re-open the settings so that _global settings_ and _user settings_ are side by side.
+- Place `"python.pythonPath": "python_path"` where *python_path* is the path returned by the command `which python3` in Termianl. This will change the defaul python interpreter.
+- For each project, one can create a virtual env. and select as the interpreter. VS Code will use it as the default env. for the project when run in the integrated termianl
+
+---
 ## Resources
 
 - [Virtual environments with venv](https://youtu.be/Kg1Yvry_Ydk) - Corey Shafer.
 - [Errors Handling](https://youtu.be/NIWwJbo-9_8) - Corey Shafer.
+- [VS Code Python Setup on Mac](https://youtu.be/06I63_p-2A4) - Corey Schafer
 - [Jupyter Notebook lessons](https://bitbucket.org/hrojas/learn-pandas) on Pandas.
 - [Jupyter notebook tutorial](http://nbviewer.jupyter.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb) on Numpy.
 - [Matplotlib documentation](https://matplotlib.org/).
