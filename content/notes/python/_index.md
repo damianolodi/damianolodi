@@ -28,22 +28,15 @@ The point of virtual environments is to have containers with packages that are u
 
 ### `venv` Built-in Module
 
-`python3 -m venv env_name` &rarr; **create** a new environment (it is a directory) in the current path. When run with _-m_, the `python` command search for a package called as the first argument and run it as _main._
-
-- One convention is to _create the project folder_ and create inside a new virtual environment called _venv._
-- **Don't commit the _virtual environment_ to source control**, so add it to the _.gitignore_ file.
-
-`source env_name/bin/activate` &rarr; **activate** the environment. If now `which pyhton` is called, it points inside the virtual environment directory.
-
-- To activate on Windows, use `env_name/bin/activate.bat`
-
-- Once the environment is created and activared, packages are installed only for that environment.
-
-`pip freeze > requirements.txt` &rarr; redirect the output of `pip freeze` (list of packages and versions) to a _.txt_ file that can be used to recreate the environment from someone else using `pip install -r requirements.txt`
-
-`deactivate` &rarr; deactivate the virtual environment
-
-- To delete the environment, remove the directory which contains it
+- `python3 -m venv env_name` &rarr; **create** a new environment (it is a directory) in the current path. When run with _-m_, the `python` command search for a package called as the first argument and run it as _main._
+    - One convention is to _create the project folder_ and create inside a new virtual environment called _venv._
+    - **Don't commit the _virtual environment_ to source control**, so add it to the _.gitignore_ file.
+- `source env_name/bin/activate` &rarr; **activate** the environment. If now `which pyhton` is called, it points inside the virtual environment directory.
+    - To activate on Windows, use `env_name/bin/activate.bat`
+    - Once the environment is created and activated, packages are installed only for that environment.
+- `pip freeze > requirements.txt` &rarr; redirect the output of `pip freeze` (list of packages and versions) to a _.txt_ file that can be used to recreate the environment from someone else using `pip install -r requirements.txt`
+- `deactivate` &rarr; deactivate the virtual environment
+    - To delete the environment, remove the directory which contains it
 
 _`venv` create the environments with the version of pyhton used to run it and cannot create one with different versions. Use other packages if necessary_
 
@@ -80,9 +73,8 @@ finally:
 
 Always start with more specific exceptions and finish with the more general excetpions, otherwise specific ones will never be cought
 
-`else` is useful to separate commands so that after `try` there is only the code that can raise the exception one wants to catch
-
-`finally` can be useful for example to free reosurces that were previously used
+- `else` is useful to separate commands so that after `try` there is only the code that can raise the exception one wants to catch
+- `finally` can be useful for example to free reosurces that were previously used
 
 One can also **raise his own exception** manually
 
@@ -131,10 +123,9 @@ Python, vscode-icon
 
 ### Settings
 
--   **Color themes** &rarr; default dark theme is ok.
--   **File icons** &rarr; _vscode-icon_ or _material icon theme._
--   Open user settings and place the following code:
-
+- **Color themes** &rarr; default dark theme is ok.
+- **File icons** &rarr; _vscode-icon_ or _material icon theme._
+- Open user settings and place the following code:
 ```json
 "workbench.settings.editor": "json",
 "workbench.settings.openDefaultSettings": true,

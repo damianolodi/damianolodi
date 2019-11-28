@@ -55,16 +55,12 @@ class Person:
         print("Hello my name is " + self.name)
 ```
 
-`__init__()` is **needed in all classes definitions.**
-
--   it is always executed when the class is initialized;
--   it is used to **assign values to object properties**, or to execute operations that are necessary to do when the object is being created.
-
-`my_func` is a **method** of the class.
-
-`self.property_name` &rarr; **access properties values** inside the class definition.
-
-- The `self` parameter is a reference to the current instance of the class.
+- `__init__()` is **needed in all classes definitions.**
+    - it is always executed when the class is initialized;
+    - it is used to **assign values to object properties**, or to execute operations that are necessary to do when the object is being created.
+- `my_func` is a **method** of the class.
+- `self.property_name` &rarr; **access properties values** inside the class definition.
+    - The `self` parameter is a reference to the current instance of the class.
 
 {{% alert note %}}
 Class names start with **capital letters** for convention.
@@ -72,18 +68,13 @@ Class names start with **capital letters** for convention.
 
 ### Class manipulation
 
-`new_object = My_class(property_name1, property_name2, ...)` &rarr; **create** an object.
-
-`new_object.property_name1` &rarr; **access** an attribute.
-
-`new_object.property_name1 = new_value` &rarr; **modify** an attribute:
-
-- if the attribute does not exists, it will be created;
-- `setattr(ClassName, attr_name, attr_value)` &rarr; as before, create a new attribute for _ClassName_.
-
-`new_object.method()` &rarr; **apply** a method.
-
-`del new_object.property_name1` &rarr; **delete** an object attribute.
+- `new_object = My_class(property_name1, property_name2, ...)` &rarr; **create** an object.
+- `new_object.property_name1` &rarr; **access** an attribute.
+- `new_object.property_name1 = new_value` &rarr; **modify** an attribute:
+    - if the attribute does not exists, it will be created;
+    - `setattr(ClassName, attr_name, attr_value)` &rarr; as before, create a new attribute for _ClassName_.
+- `new_object.method()` &rarr; **apply** a method.
+- `del new_object.property_name1` &rarr; **delete** an object attribute.
 
 ### Inheritance
 
@@ -103,16 +94,16 @@ class Student(Person): # child class definition
 
 When `__init__()` is added, the _child class_ will **no longer inherit** the parent's `__init__()` function.
 
-Tto keep the inheritance of the parent's `__init__()` function, add a call to the parent's `__init__()` function.
+To keep the inheritance of the parent's `__init__()` function, add a call to the parent's `__init__()` function.
 
 ```python
-    class Student(Person):
-        def __init__(self, fname, lname, year):
-            Person.__init__(self, fname, lname)
-            self.graduationyear = year
+class Student(Person):
+    def __init__(self, fname, lname, year):
+        Person.__init__(self, fname, lname)
+        self.graduationyear = year
 
-        def welcome(self):
-            print("Welcome", self.fname, self.lname, "to the class of", self.graduationyear)
+    def welcome(self):
+        print("Welcome", self.fname, self.lname, "to the class of", self.graduationyear)
 ```
 
 If a new method in the _child class_ is defined with the **same name** as a function in the parent class, _the parent method will be overridden._

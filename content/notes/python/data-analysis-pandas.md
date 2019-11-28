@@ -48,93 +48,62 @@ df = pd.read_csv(
       )
 ```
 
-`pd.read_json(path)` and `pd.read_excel(path)` &rarr; **import** _.json_ or _.xlsx_ into a df
-
-`df.to_csv(path)`, `df.to_json(path)` and `df.to_excel(path)` &rarr; **export** to _.csv_, _.json_ or _.xlsx_ file
+- `pd.read_json(path)` and `pd.read_excel(path)` &rarr; **import** _.json_ or _.xlsx_ into a df
+- `df.to_csv(path)`, `df.to_json(path)` and `df.to_excel(path)` &rarr; **export** to _.csv_, _.json_ or _.xlsx_ file
 
 ---
 ## `df` Informations
 
-`df.info()` &rarr; return informations about the dataframe.
-
-`df.shape()` &rarr; return number of rows and columns (tuple).
-
-`df.head(n=5)`, `df.tail(n=5)` &rarr; prints the first or last _n_ values.
-
-`df.describe()` &rarr; return **statistics** on the columns.
-
-`df.dtypes` &rarr; return **type** of each column.
-
-`df['columnName'] = df['columnName'].astype(type)` &rarr; **change the type** of the column [`str` (printed as object), `int64`, `float64`].
-
-`df.index` &rarr; access the indexes.
-
-- `len(df.index)` &rarr; **number of row** of the df (fastest method)
-
-`df.values` &rarr; return the values in the _df_ as an **ndarray.**
-
-`df[‘columnName’].unique()` &rarr; print the **unique values** of the column.
+- `df.info()` &rarr; return informations about the dataframe.
+- `df.shape()` &rarr; return number of rows and columns (tuple).
+- `df.head(n=5)`, `df.tail(n=5)` &rarr; prints the first or last _n_ values.
+- `df.describe()` &rarr; return **statistics** on the columns.
+- `df.dtypes` &rarr; return **type** of each column.
+- `df['columnName'] = df['columnName'].astype(type)` &rarr; **change the type** of the column [`str` (printed as object), `int64`, `float64`].
+- `df.index` &rarr; access the indexes.
+      - `len(df.index)` &rarr; **number of row** of the df (fastest method)
+- `df.values` &rarr; return the values in the _df_ as an **ndarray.**
+- `df[‘columnName’].unique()` &rarr; print the **unique values** of the column.
 
 ---
 ## `df` Manipulation
 
-`df = df.drop(indexNumber,axis=0)` &rarr; **delete** rows.
-
-`df.insert(location, columnName, values)` &rarr; **insert** a new column in location.
-
-`df.shift(n, axis=0)` &rarr; **shift rows** by _n_ (can be negative).
-
-`df.reindex([list])` &rarr; reassign indexes manually.
-
-`df.rename(columns={oldName1: newName1, ...}, inplace = True)` &rarr; **rename** columns.
-
-`df.copy(deep=True)` &rarr; copy the `df` indices and data ([doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.copy.html#pandas-dataframe-copy)).
-
-`df.sort_values(['columnName'], ascending=False)` &rarr; **sort** values of _df_.
+- `df = df.drop(indexNumber,axis=0)` &rarr; **delete** rows.
+- `df.insert(location, columnName, values)` &rarr; **insert** a new column in location.
+- `df.shift(n, axis=0)` &rarr; **shift rows** by _n_ (can be negative).
+- `df.reindex([list])` &rarr; reassign indexes manually.
+- `df.rename(columns={oldName1: newName1, ...}, inplace = True)` &rarr; **rename** columns.
+- `df.copy(deep=True)` &rarr; copy the `df` indices and data ([doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.copy.html#pandas-dataframe-copy)).
+- `df.sort_values(['columnName'], ascending=False)` &rarr; **sort** values of _df_.
 
 #### Slicing
 
-`df.iloc[0:n,:]` &rarr; select the first _n_ rows and all the columns.
-
-`df.loc[44,:]` &rarr; select line 44 [only usable if there is an _index_ in the dataframe].
-
-`df[df["Area"] == "Ireland”]` &rarr; select rows where _Area_ is _Ireland_.
+- `df.iloc[0:n,:]` &rarr; select the first _n_ rows and all the columns.
+- `df.loc[44,:]` &rarr; select line 44 [only usable if there is an _index_ in the dataframe].
+- `df[df["Area"] == "Ireland”]` &rarr; select rows where _Area_ is _Ireland_.
 
 #### Cleaning Data
 
-`df.dropna()` &rarr; **remove rows** with NaN.
-
-`df.fillna(new_value)` &rarr; **replace** missing values.
-
-`df = df.drop("columnName", axis=1)` &rarr; **delete** a column.
-
-- Alternatively use `df.drop(columns="columnName", inplace=True)`
+- `df.dropna()` &rarr; **remove rows** with NaN.
+- `df.fillna(new_value)` &rarr; **replace** missing values.
+- `df = df.drop("columnName", axis=1)` &rarr; **delete** a column.
+      - Alternatively use `df.drop(columns="columnName", inplace=True)`
 
 ---
 ### Data Analysis
 
 - `df['columnName'].sum()`
-
 - `df['columnName'].mean()`
-
 - `df['columnName'].count()`
-
 - `df['columnName'].median()`
-
 - `df.min()` and `df.max()`
-
-`df.corr(method=Pearson)` &rarr; compute pairwise correlation of columns ([doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html#pandas-dataframe-corr)) - ([Pearson Correlation Coefficient - Wikipedia](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)).
-
-`df['columnName'].rolling(int, min_periods).mean()` &rarr; return a Series with the moving average of the data (`int` is the window size) ([doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rolling.html)):
-
-- `mean()` can be replaced by whichever needed method
-- `min_periods` &rarr; minimum number of periods necessary to return a non-NaN value
-
-`df.apply(lambda_function)` &rarr; apply a lambda function to the _df._
-
-`name = df.groupby('columnName')` &rarr; create a **groupby object**. Then, apply methods to this objects [e.g. like `name.sum()`].
-
-`pd.to_datetime(data, )` &rarr; **convert to datetime** format [doc](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_datetime.html).
+- `df.corr(method=Pearson)` &rarr; compute pairwise correlation of columns ([doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.corr.html#pandas-dataframe-corr)) - ([Pearson Correlation Coefficient - Wikipedia](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)).
+- `df['columnName'].rolling(int, min_periods).mean()` &rarr; return a Series with the moving average of the data (`int` is the window size) ([doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.rolling.html)):
+      - `mean()` can be replaced by whichever needed method
+      - `min_periods` &rarr; minimum number of periods necessary to return a non-NaN value
+- `df.apply(lambda_function)` &rarr; apply a lambda function to the _df._
+- `name = df.groupby('columnName')` &rarr; create a **groupby object**. Then, apply methods to this objects [e.g. like `name.sum()`].
+- `pd.to_datetime(data, )` &rarr; **convert to datetime** format ([doc](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.to_datetime.html)).
 
 ---
 ## `df` Merge and Join

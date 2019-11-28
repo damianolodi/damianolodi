@@ -56,7 +56,7 @@ for a, b, ... in zip(list_a , list_b, ...): # loop on multiple lists
 
 It can loop also on _dictionaries_ and _strings._
 
-`zip()`&rarr; stops at the end of the shorter list.
+- `zip()`&rarr; stops at the end of the shorter list.
 
 {{% alert note %}}
 Dictionaries are **unordered**: the loop wil go through _every key_, but **not necessarily in the same order** each time.
@@ -72,7 +72,6 @@ else:
     <code>
 ```
 
-`else` &rarr; executed enytime the _condition_ is evaluated as _False._
-
-- It is **not executed** if the cycle is interrupted by `break`.
+- `else` &rarr; executed enytime the _condition_ is evaluated as _False._
+    - It is **not executed** if the cycle is interrupted by `break`.
 

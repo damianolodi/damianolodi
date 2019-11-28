@@ -42,7 +42,7 @@ with open('new_file.csv','w') as new_file:
 
 Use `w+` to create the file if it does not exist.
 
-#### Reading with Dictionary Reader
+### Reading with Dictionary Reader
 
 If more "human readable" files are needed, use:
 

@@ -49,13 +49,10 @@ plt.savefig('path.png', dpi=200) # save the plot
 
 Lines are layered in the order they are added, so plot the bigger first and then add the smaller ones.
 
-`plt.xkcd()` &rarr; apply style to mimic _xkcd_ comics.
-
-`plt.gcf()` &rarr; stands for _get current figure._
-
-`plt.gca()` &rarr; stands for _get current axis._
-
-`plt.legend()` can have location attribute ([doc](https://matplotlib.org/tutorials/intermediate/legend_guide.html))
+- `plt.xkcd()` &rarr; apply style to mimic _xkcd_ comics.
+- `plt.gcf()` &rarr; stands for _get current figure._
+- `plt.gca()` &rarr; stands for _get current axis._
+- `plt.legend()` can have location attribute ([doc](https://matplotlib.org/tutorials/intermediate/legend_guide.html))
 
 ---
 ## Plotting Time Series Data

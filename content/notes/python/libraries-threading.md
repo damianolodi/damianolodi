@@ -34,7 +34,7 @@ t1.start()
 
 *my_function* is a function defined previously in the program.
 
-`t1.join()` &rarr; block the execution of the calling thread until _t1_ is completed. Can have an optional timeout ([doc](https://docs.python.org/3/library/threading.html#threading.Thread.join)).
+- `t1.join()` &rarr; block the execution of the calling thread until _t1_ is completed. Can have an optional timeout ([doc](https://docs.python.org/3/library/threading.html#threading.Thread.join)).
 
 One can create various "unnamed" threads and call `join` on each of them:
 ```py
@@ -68,9 +68,8 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
     print(f1.result())
 ```
 
-`executor.submit()` &rarr; schedule a function to be executed. Returns a _future object_ (it allows to check the status of the thread, [doc](https://docs.python.org/3/library/concurrent.futures.html#future-objects)). In practice, it create the thread and run it automatically ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Executor.submit)).
-
-`f1.result()` &rarr; wait until the thread is complete and return its output ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Future.result)).
+- `executor.submit()` &rarr; schedule a function to be executed. Returns a _future object_ (it allows to check the status of the thread, [doc](https://docs.python.org/3/library/concurrent.futures.html#future-objects)). In practice, it create the thread and run it automatically ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Executor.submit)).
+- `f1.result()` &rarr; wait until the thread is complete and return its output ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Future.result)).
 
 ---
 To run multiple threads, list comprehension can be used:
@@ -83,9 +82,8 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
         print(f.result())
 ```
 
-`concurrent.futures.as_completed(future_object_list)` &rarr; return an iterator that will yeld the reference to the threads as they are completed ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.as_completed)).
-
-`executor.map(my_function, list)` &rarr; run an executor for each item contained in _list_. It is used to launch various different thread in one single line. It returns a list with the results of each thread, _in the order in which they were launched_ ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Executor.map)).
+- `concurrent.futures.as_completed(future_object_list)` &rarr; return an iterator that will yeld the reference to the threads as they are completed ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.as_completed)).
+- `executor.map(my_function, list)` &rarr; run an executor for each item contained in _list_. It is used to launch various different thread in one single line. It returns a list with the results of each thread, _in the order in which they were launched_ ([doc](https://docs.python.org/3/library/concurrent.futures.html#concurrent.futures.Executor.map)).
 
 ---
 ## Multiprocessing
@@ -101,7 +99,7 @@ p1.start()
 
 *my_function* is a function defined previously in the program.
 
-`p1.join()` &rarr; block the execution of the calling process until _p1_ is completed.
+- `p1.join()` &rarr; block the execution of the calling process until _p1_ is completed.
 
 ### Process Pool Executor
 
