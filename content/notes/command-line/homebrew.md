@@ -26,7 +26,7 @@ Homebrew can be unsinstalled pretty simply with the command provided in the FAQ 
 
 * * *
 
-### Basic Commands
+## Basic Commands
 
 - `brew search` &rarr; **lists** all the packages that can be installed
 - `brew search something` &rarr; return packages names which contains _something_ in the name
@@ -39,7 +39,7 @@ Homebrew can be unsinstalled pretty simply with the command provided in the FAQ 
 - `brew upgrade` &rarr; **upgrades** all the outdated packages
 - `brew cleanup` &rarr; delete old versions of installed packages (when packages are updated, homebrew does not replace the version but just install the new one)
 
-#### Adding 3rd Parties Brew Repositories
+### Adding 3rd Parties Brew Repositories
 
 Sometimes something is not available in the main homebrew repository. Other repositories in which the `brew` command can search can be added. The name of this repositories is provided in documentation of the software one wants to install.
 
@@ -47,7 +47,7 @@ Sometimes something is not available in the main homebrew repository. Other repo
 
 * * *
 
-### Using Cask
+## Using Cask
 
 _Basically just add `caks` after `brew` in each command_
 
@@ -56,7 +56,7 @@ _Basically just add `caks` after `brew` in each command_
 
 * * * 
 
-### Resources
+## Resources
 
 - [Offical Documentation](https://brew.sh/)
 - List of all [Homebrew formulae](https://formulae.brew.sh/formula/)
