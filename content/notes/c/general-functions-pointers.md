@@ -42,3 +42,5 @@ int function_name (parameters) { // DEFINITION
     // code
 }
 ```
+
+- _Prototypes_ are usually placed in a **header file** `file.h`.

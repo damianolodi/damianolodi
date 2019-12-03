@@ -49,3 +49,23 @@ This sort of structure can be usefull to create a "linked list" in which I store
 - if I don't care about sorting, this is an O(1) in terms of adding elements to the list (against O(n) when using `malloc`) but I am "wasting" memory to store all those pointers.
 
 {{< figure src="/notes/c/img/linked-list.jpg" title="Example of recursive structure" lightbox="true" >}}
+
+---
+## Enumerated Structures
+
+```c
+enum scenario {
+    Error = 0,
+    LeftTooClose = 1,
+    RightTooClose = 2,
+    CenterTooClose = 3
+};
+typedef enum scenario scenario_t;
+
+int main(void) {
+    // code
+    scenario_t position = RightTooClose; // value will be 2
+}
+```
+
+This kind of structure can be used to make the code much more readable.

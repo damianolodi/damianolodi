@@ -54,6 +54,42 @@ int main (void) {               // execution start from here
 - `echo $` &rarr; print what was returned by main. **Usefull to debug** complicated programs. Return a non-0 value if anything goes wrong
 
 ---
+## Variables Scope and Naming Conventions
+
+```c
+// the "_t" means "type"
+
+#define CONSTANT value
+uint16_t const someConstants[4] = {0, 200, 43, 15};
+
+uint32_t varName; // GLOBAL VARIABLE
+external uint32_t varName; // EXTERNAL GLOBAL VARIABLE
+
+uint8_t static anotherVar; // STATIC VARIABLE (PUBLIC SCOPE)
+
+void main(void) {
+    uint8_t static anotherOne; // STATIC LOCAL VARIABLE (PRIVATE SCOPE)
+    // code
+}
+```
+
+**Global variables** have a _public scope_, so they can be accessed from every function in the module. They can be also accessed and modified from other modules if they are defined as _external._
+
+{{% alert warning %}}
+Using global variables is BAAAAD! They have _permanent memory allocation_, which means that they exists in memory forever.
+{{% /alert %}}
+
+**Static vairables** also have _permanent memory allocation_, and can be defined globally (outside of all functions in the file) or within a function. In the firs case, _only functions in the file can access them_ and this reduce the complexity of the program. 
+
+**Local variables** have _private scope_ and _dynamic allocation_, so they are stored temporarily in a register or in the stack.
+
+{{% alert note %}}
+**Restrict scope and allocation as much as possible:** the firmware will be simpler and used memory resources can be reallocated for something else.
+{{% /alert %}}
+
+**Constants** are better used when defined using the `#define` preprocessor directive. When lots of constants are necessary, they can be placed in the ROM with the `const` keyword.
+
+---
 ## Running `main` with External Parameters
 
 ```c
