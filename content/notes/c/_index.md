@@ -34,6 +34,13 @@ int main (void) {               // execution start from here
 ```
 
 - **Math operators** &rarr; `+`, `-`, `*`, `/`, `%` (mod)
+- **Logic operators** &rarr; `&`, `|`, `~`
+    - Bitwise operations. See [here](#) for more terminology and applications.
+- **Boolean operators** &rarr; `&&`, `||`, `!`
+    - Zero is false, non-zero is true.
+- **Relational operators** &rarr; `>`, `>=`, `<`, `<=`, `==`, `!=`
+- **Shift operators** &rarr; `>>`, `<<`
+    - Used to multiply (by 2), divide (by 2) or align bits before logic operations.
 - For each string of _n_ charachters, _n+1_ bytes are allocated in memory: the last is added by C as the _null_ character `\0` (all zeros)
 - `(type) var_name` &rarr; change variable type
 - `man function_name` &rarr; use in terminal to return documentation about the function
