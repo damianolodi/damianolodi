@@ -8,10 +8,10 @@ draft: false
 menu:
   c:
     parent: Libraries...
-    weight: 3
+    weight: 5
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 3
+weight: 5
 ---
 
 ## The `stdlib.h` Library
