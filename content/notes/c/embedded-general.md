@@ -1,5 +1,5 @@
 ---
-title: Embedded Development General Concepts
+title: Embedded Development
 linktitle: General Concepts
 toc: false
 type: docs
