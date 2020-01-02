@@ -41,13 +41,13 @@
   icon = "whatsapp"
   enable = true
 
-[[buttons]]
-  id = "weibo"
-  url = "https://service.weibo.com/share/share.php?url={url}&title={title}"
-  title = "Weibo"
-  icon_pack = "fab"
-  icon = "weibo"
-  enable = true
+# [[buttons]]
+#   id = "weibo"
+#   url = "https://service.weibo.com/share/share.php?url={url}&title={title}"
+#   title = "Weibo"
+#   icon_pack = "fab"
+#   icon = "weibo"
+#   enable = true
 
 [[buttons]]
   id = "reddit"
@@ -65,18 +65,18 @@
   icon = "pinterest"
   enable = false
 
-[[buttons]]
-  id = "xing"
-  url = "https://www.xing.com/spi/shares/new?url={url}&title={title}"
-  title = "Xing"
-  icon_pack = "fab"
-  icon = "xing"
-  enable = false
+# [[buttons]]
+#   id = "xing"
+#   url = "https://www.xing.com/spi/shares/new?url={url}&title={title}"
+#   title = "Xing"
+#   icon_pack = "fab"
+#   icon = "xing"
+#   enable = false
 
-[[buttons]]
-  id = "tumblr"
-  url = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}"
-  title = "Tumblr"
-  icon_pack = "fab"
-  icon = "tumblr"
-  enable = false
+# [[buttons]]
+#   id = "tumblr"
+#   url = "https://www.tumblr.com/widgets/share/tool?canonicalUrl={url}&title={title}"
+#   title = "Tumblr"
+#   icon_pack = "fab"
+#   icon = "tumblr"
+#   enable = false
