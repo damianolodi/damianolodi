@@ -8,7 +8,7 @@ draft: false
 menu:
   c:
     parent: Embedded C
-    weight: 7
+    weight: 15
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 7
