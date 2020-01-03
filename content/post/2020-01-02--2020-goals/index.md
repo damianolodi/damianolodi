@@ -41,7 +41,7 @@ But I am wandering off, let's go back to the main topic of this post.
 
 I am always interested in almost everything... _I mean, really, quite everything,_ and in fact, I have started lots of side projects...
 
-... of which I completed... 0...
+... of which I completed... 0.
 
 For this reason, in 2020 I will try to stick to a low number of goals, and I will publicly account for them here, on this website. So, let's dive into the goals of 2020.
 
