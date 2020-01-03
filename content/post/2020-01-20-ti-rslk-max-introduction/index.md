@@ -1,14 +1,14 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "{{ replace .Name "-" " " | title }}"
+title: "Ti Rs"
 subtitle: ""
 summary: ""
 authors: []
 tags: []
 categories: []
-date: {{ .Date }}
-lastmod: {{ .Date }}
+date: 2020-01-07T12:00:00+01:00
+lastmod: 2020-01-07T12:00:00+01:00
 featured: false
 draft: true
 
