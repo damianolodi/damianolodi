@@ -27,7 +27,7 @@ The concept of _abstraction_ in a program refers also to the usage of logical na
 ---
 ## FSM Types
 
-There are two types of FSM: **Moore FSM** and **Mealy FSM.** They are compared in the followinf table.
+There are two types of FSM: **Moore FSM** and **Mealy FSM.** They are compared in the following table.
 
 | **Moore FSM** | **Mealy FSM**  |
 | --------------| -------------- |
@@ -46,7 +46,7 @@ There are two types of FSM: **Moore FSM** and **Mealy FSM.** They are compared i
 
 {{< hl >}}**DEF.** A **state** is the description of the current condition of the system{{< /hl >}} (_what the system belive it is true_).
 
-{{< hl >}}**DEF.** A **controller** is a software that inputs, outputs and changes state based on the state graph.{{< /hl >}}
+{{< hl >}}**DEF.** A **controller** is software that inputs, outputs and changes state based on the state graph.{{< /hl >}}
 
 ---
 ## FSM Design
@@ -110,7 +110,7 @@ void main(void){
 }
 ```
 
-{{< hl >}}In this way the complexity grows in the graph but not in te software, one only has to add rows to the FSM definition!{{< /hl >}}
+{{< hl >}}In this way the complexity grows in the graph but not in the software, one only has to add rows to the FSM definition!{{< /hl >}}
 
 ### Using Pointers
 

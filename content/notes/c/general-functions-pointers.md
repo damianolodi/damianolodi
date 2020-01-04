@@ -14,7 +14,6 @@ menu:
 weight: 3
 ---
 
-
 ## Pointers
 
 ```c
@@ -27,8 +26,8 @@ var = *pointer_name;
 pointer = &var_name;
 ```
 
-- **DEF**: memory addres of a variable of a certain type
-- Pointers are 64 bits in lenght
+- **DEF**: memory address of a variable of a certain type.
+- Pointers are 64 bits in length.
 
 ---
 ## Functions

@@ -51,7 +51,7 @@ int main (void) {               // execution start from here
 
 ### Tips
 
-- `echo $` &rarr; print what was returned by main. **Usefull to debug** complicated programs. Return a non-0 value if anything goes wrong
+- `echo $` &rarr; print what was returned by main. **Useful to debug** complicated programs. Return a non-0 value if anything goes wrong
 
 ---
 ## Variables Scope and Naming Conventions
@@ -76,10 +76,10 @@ void main(void) {
 **Global variables** have a _public scope_, so they can be accessed from every function in the module. They can be also accessed and modified from other modules if they are defined as _external._
 
 {{% alert warning %}}
-Using global variables is BAAAAD! They have _permanent memory allocation_, which means that they exists in memory forever.
+Using global variables is BAAAAD! They have _permanent memory allocation_, which means that they exist in memory forever.
 {{% /alert %}}
 
-**Static vairables** also have _permanent memory allocation_, and can be defined globally (outside of all functions in the file) or within a function. In the firs case, _only functions in the file can access them_ and this reduce the complexity of the program. 
+**Static variables** also have _permanent memory allocation_, and can be defined globally (outside of all functions in the file) or within a function. In the first case, _only functions in the file can access them_ and this reduces the complexity of the program. 
 
 **Local variables** have _private scope_ and _dynamic allocation_, so they are stored temporarily in a register or in the stack.
 
@@ -97,7 +97,7 @@ int main (int argc, char* argv[]) {}
 ```
 This will enable the program to **accept parameter from the command line** when run.
 
-`argc` &rarr; number of written words, _including_ the name of the program. This value is auto-generated.
+`argc` &rarr; the number of written words, _including_ the name of the program. This value is auto-generated.
 
 `argv[]` &rarr; array of strings. `argv[1]` is the location of the first parameter inserted by the user.
 
@@ -112,13 +112,13 @@ This will enable the program to **accept parameter from the command line** when 
 
 1.  **Preprocessing**
     - `#include` are called _preprocessor directives_
-    - `#` means that it should be handeled first, before everything else
+    - `#` means that it should be handled first, before everything else
 2.  **Compiling**
     - Code is translated into _assembly language_, understood by CPUs
 3.  **Assembling**
-    - _Assembly_ is translateed into 0s ans 1s
+    - _Assembly_ is translated into 0s and 1s
 4.  **Linking**
-    - Also libraries are compiled in 0s and 1s, and all those files are linked/attached one another
+    - Also, libraries are compiled in 0s and 1s, and all those files are linked/attached one another
 
 ---
 ## Resources

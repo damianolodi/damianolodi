@@ -20,9 +20,9 @@ Homebrew is a package manager for Mac.
 - Copy/paste the first instruction in the official documentation to install
 - Test if the installation is successful using `brew help`
 
-There are two kinds of packages: **formulae** usually deal with command line softwares, while **casks** enamble installation of macOS application directly from homebrew.
+There are two kinds of packages: **formulae** usually deal with command line software, while **casks** enable installation of macOS application directly from homebrew.
 
-Homebrew can be unsinstalled pretty simply with the command provided in the FAQ section of the website.
+Homebrew can be uninstalled pretty simply with the command provided in the FAQ section of the website.
 
 * * *
 
@@ -41,9 +41,9 @@ Homebrew can be unsinstalled pretty simply with the command provided in the FAQ 
 
 ### Adding 3rd Parties Brew Repositories
 
-Sometimes something is not available in the main homebrew repository. Other repositories in which the `brew` command can search can be added. The name of this repositories is provided in documentation of the software one wants to install.
+Sometimes something is not available in the main homebrew repository. Other repositories in which the `brew` command can search can be added. The name of this repositories is provided in the documentation of the software one wants to install.
 
-- `brew tap repository_name` &rarr; add the reposistory to homebrew. Now one can search the packages contained in that using `brew search` and install as usual
+- `brew tap repository_name` &rarr; add the repository to homebrew. Now one can search the packages contained in that using `brew search` and install as usual
 
 * * *
 

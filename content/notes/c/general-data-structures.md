@@ -42,10 +42,10 @@ typedef struct struct_name {
 
 `struct_name` is called also before definition so that the compiler knows that a structure called `struct_name` exists.
 
-This sort of structure can be usefull to create a "linked list" in which I store a value and the pointer to the next value in the list:
+This sort of structure can be useful to create a "linked list" in which I store a value and the pointer to the next value in the list:
 
 - the last element of the list will point to NULL;
-- this solve the fact that arrays are fixed size in C, but it has the downside that when parsing the list I always have to begin from the start and I cannot go backward;
+- this solve the fact that arrays are fixed size in C, but it has the downside that when parsing the list I always have to begin from the start and I cannot go backwards;
 - if I don't care about sorting, this is an O(1) in terms of adding elements to the list (against O(n) when using `malloc`) but I am "wasting" memory to store all those pointers.
 
 {{< figure src="/notes/c/img/linked-list.jpg" title="Example of recursive structure" lightbox="true" >}}

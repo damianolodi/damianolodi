@@ -15,14 +15,14 @@ weight: 7
 ---
 
 {{% alert note %}}
-**DEF.** An _instrument_ in software is a piece of code that one can inject in the codebase for the purpose of debugging.
+**DEF.** An _instrument_ in software is a piece of code that one can inject in the codebase to debug it.
 
-**DEF.** A _dump instrument_ is a debugging tool that read a value and store it in a variable/array. It is similar to `printf`, but one can observe the behaviour inside the debugger.
+**DEF.** A _dump instrument_ is a debugging tool that read a value and stores it in a variable/array. It is similar to `printf`, but one can observe the behaviour inside the debugger.
 {{% /alert %}}
 
-Debugging _instruments_ can be both good and bad, and can be classified based on how muche the code is affecting the parameters that one needs to measure. This property is called **intrusiveness.** {{< hl >}}An instument is _minimally intrusive_ if $t/\Delta t$ is small, where $t$ is the time spent to execute the insturment and $\Delta t$ is the time passing between executions.{{< /hl >}}
+Debugging _instruments_ can be both good and bad, and can be classified based on how much the code is affecting the parameters that one needs to measure. This property is called **intrusiveness.** {{< hl >}}An instrument is _minimally intrusive_ if $t/\Delta t$ is small, where $t$ is the time spent to execute the instrument and $\Delta t$ is the time passing between executions.{{< /hl >}}
 
-There could be 2 variatons of _dump instruments:_
+There could be 2 variations of _dump instruments:_
 
 1. **continuous** &rarr; saves the last $n$ values acquired;
 2. **filter** &rarr; saves only certain conditions to reduce the amount of data observed (e.g. record a value only if it changes).
@@ -76,7 +76,7 @@ In the previous example, the instruction `P2->OUT` was replaced by a bit-banded 
 
 - `P2->OUT` is identified by the value 0x40004C03. Let's take the bottom part of the number and define $n=0x4C03$.
 - Let's suppose that one wants to write on pin P2.2, so let's define $b=2$.
-- Finally solve the following equation
+- Finally, solve the following equation
 $$
 \text{Bit-banded address} = 0x42000000 + 32 \cdot n + 4 \cdot b
 $$

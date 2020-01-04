@@ -50,7 +50,7 @@ do {
 ---
 ## Logic Operators
 
-The logic operators are `&` (AND), `|` (OR), `^`(EOR) and `~` (NOT). All of theese are _bitwise operators._
+The logic operators are `&` (AND), `|` (OR), `^`(EOR) and `~` (NOT). All of these are _bitwise operators._
 
 | A     |     | B     |     | A&B     |     | A\|B      |     | A^B     |     | ~A      |
 | ----- | --- | ----- | --- | ------- | --- | --------- | --- | ------- | --- | ------- | 

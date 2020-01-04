@@ -16,10 +16,10 @@ weight: 3
 
 _A voltage regulator is an IC designed to maintain a costant output voltage_ $V_ {out}$ _from a variable input power source (_$V_ {in}$ _and_ $I_ {in}$_) and for a variable circuit load_ $I_ {out}$. For this reason, {{< hl >}}voltage regualtors are used every time a clean and constant voltage is required.{{< /hl >}}
 
-Mainly, one can have 3 source of power:
+Mainly, one can have 3 sources of power:
 
 1. **wall** ($120 / 240 \, V_ {AC}$ and $50 / 60 \, \text{Hz}$)
-  * In this case one needs to convert AC to DC and clean the input voltage to obtain a constant output power;
+  * In this case, one needs to convert AC to DC and clean the input voltage to obtain a constant output power;
 2. **DC power supply** ($+5\,\text{V}$ on USB, $+12\,\text{V}$ in automotive).
   * A regulator is needed to step down to $+3.3\,\text{V}$;
 3. **battery**.
@@ -28,7 +28,7 @@ Mainly, one can have 3 source of power:
 ---
 ## Types of Regulator
 
-There are different types of regulator, and each one is suited for a different application.
+There are different types of regulators, and each one is suited for a different application.
 
 ### Linear Regulators
 
@@ -68,7 +68,7 @@ Example circuits are reported in the following images.
 #### Pros and Cons
 
 * Switching regulators are **more efficient** than linear ones, because $P_ {in} \sim P_ {out}$
-* Swithcing regulators are also **more expensive**
+* Switching regulators are also **more expensive**
 * They are also **more noisy**, due to the presence of EM field generated from their working principle
 
 

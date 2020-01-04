@@ -14,7 +14,7 @@ menu:
 weight: 2
 ---
 
-`git init` &rarr; create empty git repository in the current directory
+`git init` &rarr; create an empty git repository in the current directory
 
 `git add <file/dir>` &rarr; stage file or direcotry for the next commit
 
@@ -31,13 +31,13 @@ weight: 2
 
 - `git diff <file>` &rarr; preview the differences between the file in the working directory and the one in the staging area
 
-`git log` &rarr; display the entire commit history. _The 40-character code, called a **SHA**, uniquely identifies the commit_.
+`git log` &rarr; display the entire commit history. _The 40-character code, called **SHA**, uniquely identifies the commit_.
 
 - `git log -<limit>` &rarr; limit the number of commits to the specified number
 - `git log --oneline` &rarr; condense each commit to a single line
 - `git log --stat` &rarr; returns some statistics about which file has changed in each commit
 
-`git revert <commit>` &rarr; create new commit that undoes all of the changes made in `<commit>`, then apply it to the current branch
+`git revert <commit>` &rarr; create a new commit that undoes all of the changes made in `<commit>`, then applies it to the current branch
 
 `git reset <file>` &rarr; **remove the file from the staging area**, but leave the working directory unchanged
 
@@ -54,4 +54,4 @@ weight: 2
 
   - e.g. `git config --global alias.ciao commit -m` set `git ciao` to `git commit -m`
 
-`git config --global color.ui auto` &rarr; activate the color code while using the diff command
+`git config --global color.ui auto` &rarr; activate the colour code while using the diff command
