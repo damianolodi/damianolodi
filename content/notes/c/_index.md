@@ -1,6 +1,6 @@
 ---
 # Course title, summary, and position.
-linktitle: C
+linktitle: C and Embedded Systems
 summary: Notes on C and embeddend programming
 weight: 3
 

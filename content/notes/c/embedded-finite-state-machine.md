@@ -71,6 +71,7 @@ _A FSM can be designed both in **table** and in **graph**._ The two representati
 
 Tables can easily be translated into code using structures.
 ```c
+/** Example taken from the TI-RSLK MAX curriculum for the MSP432 **/
 const struct State {
     uint32_t Out;       // 6-bit output
     uint32_t Time;      // 1ms units
@@ -116,6 +117,7 @@ void main(void){
 As a reference, I report also the example which implements pointers. This code will run a bit faster because now I initialize as a full 32-bit pointer instead of a 2-bit number.
 
 ```c
+/** Example taken from the TI-RSLK MAX curriculum for the MSP432 **/
 typedef const struct State {
     uint32_t Out;       // 6-bit output
     uint32_t Time;      // 1ms units
