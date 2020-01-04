@@ -1,0 +1,19 @@
+# Theme metadata
+name = "Green Custom Theme"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#027A3E"
+
+# Menu
+menu_primary = "#027A3E"
+menu_text = "#fbf9f4"
+menu_text_active = "#012D17"
+menu_title = "#fbf9f4"
+
+# Home sections
+background = "#fbf9f4"
+home_section_odd = "#fbf9f4"
+home_section_even = "#fbf9f4"
