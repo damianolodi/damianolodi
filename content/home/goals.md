@@ -72,4 +72,4 @@ math = true
 - [x] ~~Create a _2020 Goals_ custom widget.~~
 - [ ] Change the copyright footer.
 - [x] ~~Choose a better colour palette.~~
-- [ ] Create my logo and... brand (customize font and UI a little bit).
+- [ ] Create my logo and... brand (customize ~~font and~~ UI a little bit).
