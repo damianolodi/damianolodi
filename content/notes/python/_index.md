@@ -110,6 +110,24 @@ else:
 ```
 
 ---
+## Importing libraries
+
+```py
+import mymodule
+```
+
+- `import` is a statement, not a function, so it does not require parenthesis.
+- `mymodule` is the name of the module to be imported and also **the name of the variable that will be created to access the content defined inside it.** For this reason, to access a method defined inside a module one has to write `mymoduel.mymethod()`.
+- Python will look for this package in the search paths, defined in the `sys.path` variable. It is a list of strings in which the first element is `""`, so the current working directory.
+    - If nothing is found there, it raises the `ImportError` exception.
+
+_Loading a module_ in Python means that Python is running the code contained in the module, line by line. This is how the functions and attributes of that module are defined.
+
+{{% alert note %}}
+Once a module is imported, another call to `import` will not reload the package again. If this is necessary (e.g. when debugging a personal module) use `reload(mymodule)`.
+{{% /alert %}}
+
+---
 ## VS Code Setup
 
 ### Shortcuts
