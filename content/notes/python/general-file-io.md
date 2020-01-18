@@ -21,7 +21,7 @@ import csv
 #### Read CSV files
 
 ```py
-with open('data.csv','r') as csv_file:
+with open('data.csv','Ur') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=' ')
 
     next(csv_reader)        # skip over the header line
@@ -29,6 +29,10 @@ with open('data.csv','r') as csv_file:
     for line in csv_reader:
         print(line)
 ```
+
+When reading a file written on a different OS, problems can occur. This because on Unix the newline character is represented by the ASCII 10 (_line feed_), while in Windows is represented by the combination of ASCII 13 (_carriage return_) and ASCII 10 (i.e. 2 characters are used).
+
+For this reason, to avoid errors when reading files written on other OS, one should use the `U` (universal) flag while opening them.
 
 #### Write on CSV files
 

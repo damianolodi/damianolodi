@@ -54,7 +54,7 @@ math = true
 
 ### Development
 - [ ] Complete the **TI-RSLK Max Curriculum** for embedded programming (0/20).
-- [ ] Constantly follow the **Better Developers newsletter** by R. M. Lerner.
+- [ ] Constantly follow the **Better Developers newsletter** by R. M. Lerner (2/2).
 - [ ] Complete the freeCodeCamp _Coding Interview Prep_ and Python curriculums (when they will be launched).
 - [ ] Complete the **Deep Learning** course on Coursera.
 - [ ] Learn **Tensorflow.**
