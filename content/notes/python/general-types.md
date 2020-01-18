@@ -83,7 +83,8 @@ z = {**x, **y}
 ```
 
 - `d["key"]` &rarr; return the value associated with the key "key"
-- `d.keys()` &rarr; return a list of the keys
+- `d.keys()` &rarr; return a _dict\_keys_ object containing all the keys of the dict
+  - `sorted(d.keys())` &rarr; return the keys of the dict sorted alphabetically
 - `d.values()` &rarr; return a list of the values
 - `d.items()` &rarr; return a list of _(key, value)_ pairs
 - `d.get("AU", "Sorry")` &rarr; return the value from the dictionary d that has the key "AU", or the string "Sorry" if the key "AU" is not found in d
