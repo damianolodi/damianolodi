@@ -1,7 +1,7 @@
 ---
 title: Pandas
 linktitle: Pandas
-toc: false
+toc: true
 type: docs
 date: "2019-11-27T00:00:00+01:00"
 draft: false
@@ -24,8 +24,8 @@ pd.DataFrame(data=[list], index=None,	# create df from list
 ```
 _In this context, the following abbreviations are valid:_
 
-- `df` &rarr; DataFrame;
-- `s` &rarr; Series.
+- `df` &rarr; DataFrame (rows and columns);
+- `s` &rarr; Series (rows from a single column).
 
 ---
 ## File I/O
@@ -41,7 +41,7 @@ df = pd.read_csv(
       skiprows = 1,     # rows to skip from top
       skipfooter = 3,   # rows to skip from bottom
                         ## if a list is provided, it will skip those rows
-      index_col = False,            # force to not use a column as the index of the rows
+      index_col = False,            # place the name of the column to be used as index
       skipinitialspace = True,      # skip initial spaces after delimiter
       parse_dates = [0],            # list of ints or column names containing date time format
       infer_datetime_format = True  # infer time format and switch to faster loading (if possible)
@@ -52,18 +52,59 @@ df = pd.read_csv(
 - `df.to_csv(path)`, `df.to_json(path)` and `df.to_excel(path)` &rarr; **export** to _.csv_, _.json_ or _.xlsx_ file
 
 ---
-## `df` Informations
+## `df` Data Exploration
 
-- `df.info()` &rarr; return informations about the dataframe.
-- `df.shape()` &rarr; return number of rows and columns (tuple).
-- `df.head(n=5)`, `df.tail(n=5)` &rarr; prints the first or last _n_ values.
-- `df.describe()` &rarr; return **statistics** on the columns.
+### Attributes
+
+- `df.shape` &rarr; return number of rows and columns (tuple).
+- `df.columns` &rarr; return the name of each column.
 - `df.dtypes` &rarr; return **type** of each column.
-- `df['columnName'] = df['columnName'].astype(type)` &rarr; **change the type** of the column [`str` (printed as object), `int64`, `float64`].
 - `df.index` &rarr; access the indexes.
       - `len(df.index)` &rarr; **number of row** of the df (fastest method)
 - `df.values` &rarr; return the values in the _df_ as an **ndarray.**
+
+### Methods
+
+- `df.info()` &rarr; return useful informations about the dataframe.
+- `df.head(n=5)`, `df.tail(n=5)` &rarr; prints the first or last _n_ values.
+- `df.describe()` &rarr; return **statistics** on the columns.
+- `df['columnName'] = df['columnName'].astype(type)` &rarr; **change the type** of the column [`str` (printed as object), `int64`, `float64`].
 - `df[‘columnName’].unique()` &rarr; print the **unique values** of the column.
+
+### Display Options
+
+- `pd.set_option("display.max_columns", n)` &rarr; set the number of columns tha should be displayed when printing the df.
+      - `display.max_rows` &rarr; as before but for rows.
+
+---
+## Data Selection
+
+- `df.iloc[0:n,:]` &rarr; select rows and columns using index location.
+      - `df.iloc[[0, 5, 7], [0, 4]]` &rarr; in general, pass a list of rows and columns to be selected.
+- `df.loc[44,:]` &rarr; select rows and columns using labels. If the _index_ column is made by integers, rows selection is similar to `iloc`.
+      - `df.loc[[0, 5, 7], ["column_1", "column_2"]]` &rarr; in general, pass a list of rows and columns to be selected.
+      - `df.loc[:, "column_1":"column_4"]` &rarr; slicing can be used also in columns labels.
+- `df[df["Area"] == "Ireland”]` &rarr; select rows where _Area_ is _Ireland_.
+
+{{% alert warning %}}
+When **slicing** is used instead of a list of rows/columns, in this context **the last value is included!**
+{{% /alert %}}
+
+### Indexing
+
+- `pd.set_index("column_name", inplace=Flase)` &rarr; set the column to be used as index labels for rows. This can replace the default integer indexing.
+- `pd.reset_index(inplace=False)` &rarr; reset the index to be integer numbers.
+
+### Filtering
+
+- `filt = (df["column_name"] == value)` &rarr; return a bool Series where the value depends on if the condition is met or not. _Round parenthesis are used just for reading easiness._ This can be used as a **mask** on the dataframe for rows selection.
+      - `filt = (df["column_name_1"] == value_1) & (df["column_name_2"] == value_2)` &rarr; use `&` and `|` to combine conditions in a filter.
+      - Use `~` to negate a filter when applying it.
+- `filt = df["column_name"].isin(list_of_values)` &rarr; create a filter where _True_ is returned if the value of each row is equal to at least one value of the list.
+- `filt = df["column_name"].str.contains("string", na=False)` &rarr; check if each row of that column (made by string objects) contains the requested value, not considering _NaN_ rows.
+
+- `df[filt]` or `df.loc[filt]` &rarr; return only the rows where `filt` is _True_.
+      - `df.loc[filt, ["column_1", "column_2"]]` &rarr; the use of `loc` allows to select a subset of the columns when applying the filter.
 
 ---
 ## `df` Manipulation
@@ -76,13 +117,7 @@ df = pd.read_csv(
 - `df.copy(deep=True)` &rarr; copy the `df` indices and data ([doc](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.copy.html#pandas-dataframe-copy)).
 - `df.sort_values(['columnName'], ascending=False)` &rarr; **sort** values of _df_.
 
-#### Slicing
-
-- `df.iloc[0:n,:]` &rarr; select the first _n_ rows and all the columns.
-- `df.loc[44,:]` &rarr; select line 44 [only usable if there is an _index_ in the dataframe].
-- `df[df["Area"] == "Ireland”]` &rarr; select rows where _Area_ is _Ireland_.
-
-#### Cleaning Data
+### Cleaning Data
 
 - `df.dropna()` &rarr; **remove rows** with NaN.
 - `df.fillna(new_value)` &rarr; **replace** missing values.
@@ -90,7 +125,7 @@ df = pd.read_csv(
       - Alternatively use `df.drop(columns="columnName", inplace=True)`
 
 ---
-### Data Analysis
+## Data Analysis
 
 - `df['columnName'].sum()`
 - `df['columnName'].mean()`
@@ -131,3 +166,8 @@ new_df = pd.merge(
 {{% alert warning %}}
 **Merging on _float_ can be painful**. Merge on _int_ or _string_.
 {{% /alert %}}
+
+---
+## Resources
+
+- [Pandas Tutorial](https://youtu.be/ZyhVh-qRZPA) - Corey Shafer.
