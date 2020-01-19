@@ -128,27 +128,6 @@ Once a module is imported, another call to `import` will not reload the package 
 {{% /alert %}}
 
 ---
-## Lambda Functions
-
-When a function is defined, Python does two things:
-
-1. it creates a new function object;
-2. it assigns a name to that object.
-
-Sometimes one needs to use _anonymous_ functions, e.g. to pass a function to another one as a parameter. In Python this is possible and those functions are called **lambda functions.**
-
-```py
-# example taken from the newsletter of Reuven Lerner
-mylist.sort(key=lambda x: len(str(x)))
-
-# Equivalent of ...
-def str_len(x):
-    return len(str(x))
-
-mylist.sort(key=str_len)
-```
-
----
 ## VS Code Setup
 
 ### Shortcuts

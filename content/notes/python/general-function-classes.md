@@ -22,21 +22,66 @@ def func_name(var1, var2, var3=default_value):
     return something1, something2, ...
 ```
 
-**Recursion** is allowed
+- **Recursion** is allowed
 
+### Passing Parameters to Functions
+One can pass a variable number of parameters to a function using `*args` and `**kwargs`.
 
-### Lambda Functions (sistema)
+- `*args` is used to pass a non-keyworded variable-length argument list to functions;
+- `**kwargs` is used to pass **keyworded**, _variable-length argument dictionary to a function._
 
-Small anonymous functions can be created with the [lambda](https://docs.python.org/2/reference/expressions.html#lambda) keyword.
-This function returns the sum of its two arguments
+In both cases, the names `args` and `kwargs` are used for conventions, so the important thing to notice is the use of asterisks in the definition of the function.
 
 ```py
-lambda a, b: a+b
-
-lambda val: val > 1000000
+def add_numbers (*args):
+    x = 0
+    for item in args:
+        x = x + item
+    return x
 ```
 
-**Lambda functions can be used wherever function objects are required.** They are syntactically restricted to a single expression. Semantically, they are just syntactic sugar for a normal function definition. Like nested function definitions, lambda functions can reference variables from the containing scope
+{{% alert note %}}
+When calling or defining a function, one should order the arguments in the following way:
+
+- formal positional arguments
+- `*args`
+- keyword arguments
+- `**kwargs`
+{{% /alert %}}
+
+`args` and `kwargs` can be used also in function calls.
+
+```py
+args = (value_1, value_2, value_3)
+kwargs = { "key_1": value_1,
+           "key_2": value_2 }
+
+my_function(*args, **kwargs)
+```
+
+---
+## Lambda Functions
+
+When a function is defined, Python does two things:
+
+1. it creates a new function object;
+2. it assigns a name to that object.
+
+Sometimes one needs to use _anonymous_ functions, e.g. to pass a function to another one as a parameter. In Python this is possible and those functions are called **lambda functions.**
+
+```py
+# example taken from the newsletter of Reuven Lerner
+mylist.sort(key=lambda x: len(str(x)))
+
+# Equivalent of ...
+def str_len(x):
+    return len(str(x))
+
+mylist.sort(key=str_len)
+
+# GENERAL SYNTAX FOR CREATION OF A LAMBDA FUNCTION
+lambda arg1, arg2, ...: <single_expression>
+```
 
 ---
 ## Classes
