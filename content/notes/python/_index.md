@@ -44,9 +44,9 @@ _`venv` create the environments with the version of pyhton used to run it and ca
 
 1. Install `virtualenv`
 - `cd` into the project folder
-- `conda create --name project-env-name dependecy1 dependency2 ...` &rarr; **create** the environment
-- `source activate project-env-name` &rarr; **activate** the environment
-- `source deactivate project-env-name` &rarr; **deactivate** the environment
+- `conda create --name project-env-name python=version dependecy1 dependency2 ...` &rarr; **create** the environment
+- `conda activate project-env-name` &rarr; **activate** the environment
+- `conda deactivate project-env-name` &rarr; **deactivate** the environment
 - `conda env export > environment.yaml` &rarr; **export** the environment
   - keep track of all the dependencies
   - have the possibility to reproduce the environment if something goes wrong

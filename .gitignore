@@ -1,3 +1,7 @@
 public/
 .idea/
 .DS_Store
+
+content/notes/ai/
+content/post/2020-01-27-ti-rslk-max-module-6
+content/notes/python/tensorflow-*

@@ -20,9 +20,13 @@ weight: 3
 def func_name(var1, var2, var3=default_value):
     <code>
     return something1, something2, ...
-```
 
-- **Recursion** is allowed
+# Typical structure of a recursive function
+def recursive_function(var1, ...):
+    if <condition>:
+        return <base_value>
+    recursive_function(modified_var_1, ...)
+```
 
 ### Passing Parameters to Functions
 One can pass a variable number of parameters to a function using `*args` and `**kwargs`.
