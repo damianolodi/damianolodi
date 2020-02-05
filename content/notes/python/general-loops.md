@@ -38,6 +38,7 @@ var = value_1 if  condition else value_2
 ---
 ## For Loop
 
+### Looping on Lists
 ```py
 for item in listName:
     <code>
@@ -54,13 +55,24 @@ for a, b, ... in zip(list_a , list_b, ...): # loop on multiple lists
     <code>
 ```
 
-It can loop also on _dictionaries_ and _strings._
-
+- The behaviour is similar for _strings_.
 - `zip()`&rarr; stops at the end of the shorter list.
+
+### Looping on Dictionaries
 
 {{% alert note %}}
 Dictionaries are **unordered**: the loop wil go through _every key_, but **not necessarily in the same order** each time.
 {{% /alert %}}
+
+```py
+# access all the keys in the dictionary
+for key in dictionary:
+    pass
+
+# access both key and value pair
+for key, value in dictionary.items():
+    pass
+```
 
 ---
 ## While Loop
