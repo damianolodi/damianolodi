@@ -9,7 +9,7 @@ title: Overview
 date: "2019-11-27T00:00:00Z"
 lastmod: "2018-11-27T00:00:00Z"
 draft: false  # Is this a draft? true/false
-toc: false  # Show table of contents? true/false
+toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
 
 # Add menu entry to sidebar.
@@ -126,6 +126,28 @@ _Loading a module_ in Python means that Python is running the code contained in 
 {{% alert note %}}
 Once a module is imported, another call to `import` will not reload the package again. If this is necessary (e.g. when debugging a personal module) use `reload(mymodule)`.
 {{% /alert %}}
+
+---
+## Writing Executable Scripts
+
+One can tell the OS what compiler to use when running the scripts in the first line of the file. This line is called **shebang** and consists in th characters `!#` followed by the path in which is installed the compiler (e.g. `#!usr/bin/env python3`).
+
+{{% alert note %}}
+The user must have the permission to execute the file, otherwise the OS will not run it! To add execution to file permissions use `chmod +x file_name`.
+{{% /alert %}}
+
+The script can be executed using `./file_name.py`. **The `./` is needed when the current directory is not placed in the PATH variable of the OS.**
+
+---
+## Personal Modules
+
+**One can import a module called `module_name.py` by calling `import module_name` in the program.**
+
+If the module is very big, on can create different _submodules:_
+
+1. create a directory with the name of the module;
+- create a `.py` file for each submodule;
+- create a `__init__.py` file. This is a special submodule, called when the module is imported. It is used by the interpreter to recognize the directory as a module. _The file can also be empty._
 
 ---
 ## VS Code Setup
