@@ -1,5 +1,5 @@
 ---
-title: File I/O with the CSV Module
+title: File I/O and the CSV Module
 linktitle: File I/O
 toc: false
 type: docs
@@ -14,37 +14,71 @@ menu:
 weight: 4
 ---
 
+## File I/O
+
+_It is not good having multiple files opened at the same time, so it is a good practice to open and work on files using the context manager._
+
+```py
+# Open file with context manager
+with open(path, mode) as file:
+    # Loop on all line of the file
+    for line in file:
+        pass
+```
+
+`mode` determine what can be done on the file after opening it. The most used are `r` (read), `w` (write), `a` (append) and `r+` (read-write).
+
+{{% alert note %}}
+If you open a file using `w` while the file already exists, the old contents will be deleted as soon as the file is opened!
+{{% /alert %}}
+
+- `file = open(path)` &rarr; **open the file** in the path and return a _file object._ [doc](https://docs.python.org/3/library/functions.html#open)
+- `file.close()` &rarr; close the file.
+- `file.read()` &rarr; return a string with all the content of the file.
+- `file.readline()` &rarr; return a single line of the file (starting from the beginning). Successive calls will return the following line each time.
+- `file.readlines()` &rarr; return a list with all the lines in the file. _Be careful to memory usage when reading large files._
+- `file.write(str)` &rarr; write string in the file.
+
+---
+## `csv` Module
+
 ```py
 import csv
 ```
 
-#### Read CSV files
-
-```py
-with open('data.csv','Ur') as csv_file:
-    csv_reader = csv.reader(csv_file, delimiter=' ')
-
-    next(csv_reader)        # skip over the header line
-
-    for line in csv_reader:
-        print(line)
-```
+### Reading CSV Files
 
 When reading a file written on a different OS, problems can occur. This because on Unix the newline character is represented by the ASCII 10 (_line feed_), while in Windows is represented by the combination of ASCII 13 (_carriage return_) and ASCII 10 (i.e. 2 characters are used).
 
-For this reason, to avoid errors when reading files written on other OS, one should use the `U` (universal) flag while opening them.
-
-#### Write on CSV files
+_For this reason, to avoid errors when reading files written on other OS, one should use the `U` (universal) flag while opening them._
 
 ```py
-with open('new_file.csv','w') as new_file:
-    csv_writer = csv.writer(new_file, delimiter='\t')
+# Opening the file WITHOUT using the context manager
+f = open(path)
+csv_f = csv.reader(f) # create a csv reader object
 
-    for line in csv_reader:
-        csv_writer.writerow(something)
+# Opening file USING the context manager
+with open(path, 'Ur') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=' ')
+
+    # skip over the header line
+    next(csv_reader)
+
+    # each row is a list of the values that
+    # were originally separater by commas
+    for row in csv_reader:
+	    value_1, value_2, …  = row # unpacking
 ```
 
-Use `w+` to create the file if it does not exist.
+### Write on CSV files
+
+```py
+data_list = [ [value_1, value_2, ...], [value_n, value_n+1, ...]]
+
+with open(path, 'w') as csv_file:
+	csv_writer = csv.writer(csv_file, delimiter='\t')
+	csv_writer.writerows(data_list)
+```
 
 ### Reading with Dictionary Reader
 
@@ -56,22 +90,26 @@ with open('data.csv','r') as csv_file:
 
     for line in csv_reader:
         print(line)
+
+with open(path, 'r') as csv_file:
+	csv_reader = csv.DictReader(csv_file)
+
+	for row in csv_reader:
+		pass
 ```
 
-#### Writing with Dictionary Writer
+- `csv.DictReader(csv_file)` &rarr; return a list of dictionaries (one dictionary for every row of the file). The keys are taken from the file header.
+
+### Writing with Dictionary Writer
 
 ```py
-with open('data.csv','r') as csv_file:
-    csv_reader = csv.DictReader(csv_file,delimiter=' ')
-    
-    with open('new_file.csv','w') as new_file:
-        field_names = ['data','ora','bo1','bo2','bo3','bo4','bo5','bo6','bo7','bo8']
-        csv_writer = csv.DictWriter(new_file, field_names=field_names, delimiter='\t')
-        csv_writer.writeheader()    # write the header in the new file
-
-        for line in csv_reader:
-            # skip writing the 'bo1' column
-            # del line['bo1'] #delete the 'bo1' in 'field_names'
-            csv_writer.writerow(line)
+with open(path, 'w') as csv_file:
+	csv_writer = csv.DictWriter(csv_file, fieldnames=keys, delimiter='\t') 
+	csv_writer.writeheader()
+	csv_writer.writerows(list_of_dict)
 ```
 
+---
+## Resources
+
+- `csv` module [documentation](https://docs.python.org/3/library/csv.html)
