@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a physicist with a strong interest in machine learning, robotics and practical application of techonlogy. (change)
+bio: I am a physicist with a strong interest in machine learning, robotics and practical application of modern techonlogy.
 
 interests:
 - Robotics and AI
