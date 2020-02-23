@@ -1,7 +1,7 @@
 ---
 title: File I/O and the CSV Module
 linktitle: File I/O
-toc: false
+toc: true
 type: docs
 date: "2019-11-27T00:00:00+01:00"
 draft: false
@@ -45,6 +45,10 @@ If you open a file using `w` while the file already exists, the old contents wil
 ```py
 import csv
 ```
+
+When reading and writing on csv files, multiple conventions are possible. Before reading the content of a file, one can define a _Dialect_ class in which the attributes specifies all the conventions. This class can then be passed to the _reader_ function when accessing the file.
+
+More on dialects in the resources.
 
 ### Reading CSV Files
 
@@ -113,3 +117,5 @@ with open(path, 'w') as csv_file:
 ## Resources
 
 - `csv` module [documentation](https://docs.python.org/3/library/csv.html)
+- Dialects and formatting parameters [documentation] for the `csv` module(https://docs.python.org/3/library/csv.html#dialects-and-formatting-parameters)
+- Dialects functions [documentation](https://docs.python.org/3/library/csv.html#csv.register_dialect)

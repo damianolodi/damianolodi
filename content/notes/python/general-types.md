@@ -1,7 +1,7 @@
 ---
 title: Data Types
 linktitle: Data Types
-toc: false
+toc: true
 type: docs
 date: "2019-11-27T00:00:00+01:00"
 draft: false
@@ -85,6 +85,8 @@ Strings are **immutable:** the value of a single character cannot be changed lik
 - `'string'.encode('utf-8')` &rarr; return a bytearray **encoded as ASCII** characters.
 - `b'bytearray'.decode('utf-8')` &rarr; translate the bytearray interpreting its bytes as ASCII characters. Return a string.
 - `s.isnumeric()` &rarr; return _True_ if the string is made only by numbers.
+- `"a".isalpha()` &rarr; return _True_ if the character is a letter.
+- `s.strip()` &rarr; returns a copy of the string with both leading and trailing characters removed.
 
 ---
 ## Dictionaries
@@ -129,3 +131,13 @@ a, b, *c, d = (1, 2, 3, 4, 5)   # a=2, b=2, c=[3,4], d=5
 Tuples are **immutable** and they can contain an heterogeneous sequence of elements that are accessed via _unpacking_ or _indexing_.
 
 They are usually adopted when the position in the sequence has a very precise meaning (like name, email address, ...).
+
+---
+## Other Types
+
+### Sets
+A set is an **unordered collection with no duplicate elements.** More on them is available in the [documentation](https://docs.python.org/3/tutorial/datastructures.html#sets).
+
+---
+## Resources
+- Data types python [documentation](https://docs.python.org/3/tutorial/datastructures.html)
