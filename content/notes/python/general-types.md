@@ -86,7 +86,6 @@ Strings are **immutable:** the value of a single character cannot be changed lik
 - `b'bytearray'.decode('utf-8')` &rarr; translate the bytearray interpreting its bytes as ASCII characters. Return a string.
 - `s.isnumeric()` &rarr; return _True_ if the string is made only by numbers.
 - `"a".isalpha()` &rarr; return _True_ if the character is a letter.
-- `s.strip()` &rarr; returns a copy of the string with both leading and trailing characters removed.
 
 ---
 ## Dictionaries
