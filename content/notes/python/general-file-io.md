@@ -117,5 +117,5 @@ with open(path, 'w') as csv_file:
 ## Resources
 
 - `csv` module [documentation](https://docs.python.org/3/library/csv.html)
-- Dialects and formatting parameters [documentation] for the `csv` module(https://docs.python.org/3/library/csv.html#dialects-and-formatting-parameters)
+- Dialects and formatting parameters [documentation](https://docs.python.org/3/library/csv.html#dialects-and-formatting-parameters) for the `csv` module
 - Dialects functions [documentation](https://docs.python.org/3/library/csv.html#csv.register_dialect)
