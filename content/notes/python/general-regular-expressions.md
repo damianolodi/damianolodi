@@ -19,18 +19,19 @@ import re
 ```
 
 {{% alert note %}}
-**Regular expressions** (also known as _regex_ or _regexp_) are search queries for text that are expressed by string patterns. They allow to search for strings matching a specific pattern.
+**Regular expressions** (also known as _regex_ or _regexp_) are search queries for text that are expressed by string patterns. They allow searching for strings matching a specific pattern.
 {{% /alert %}}
 
 ```py
 # ALWAYS use raw strings for regular expressions in python
 regex = r”\[(\d+)\]”
 ``` 
-- `re.search(regex, string)` &rarr; return a _Match_ object with **only the first pattern found.**
+
+- `re.search(regex, string)` &rarr; return a _Match_ object with **only the first pattern found.** ([doc](https://docs.python.org/3/library/re.html#re.search))
   - Add the `re.IGNORECASE` parameter to ignore case in characters.
-- `re.findall(regex, string)` &rarr; return all found patterns
-- `re.split()` take a regex as parameter and uses it to split a string. It is useful e.g. when looking in how to split a string in phareses because both `.`, `?` and `!` are valid separators. Return a list with all the splitted parts.
-- `sub()` &rarr; return a string in which a part of it (found using regex) is replaced
+- `re.findall(regex, string)` &rarr; return all found patterns. ([doc](https://docs.python.org/3/library/re.html#re.findall))
+- `re.split(regex, string)` take a regex as parameter and uses it to split a string. _Return a list with all the splitted parts._ ([doc](https://docs.python.org/3/library/re.html#re.split))
+- `re.sub(regex, replacement, string)` &rarr; return a string in which a part of it (found using regex) is replaced. ([doc](https://docs.python.org/3/library/re.html#re.split))
 
 ---
 ## Special Characters
@@ -40,10 +41,10 @@ regex = r”\[(\d+)\]”
 - `&` &rarr; matches the **end** of the string.
 - `*` &rarr; (used after a special character or group) tells to search for whichever number of characters (_repeated matches_), e.g.
   - `Py.*n` can match both `Python` and `Pygmalion`.
-  - **WARNING:** while searching, it try to replace as many characters as possible (_greedy_).
+  - **WARNING:** while searching, it tries to replace as many characters as possible (_greedy_).
 - `re_1|re_2` &rarr; matches both defined regex.
 
-Python regex implementation accept also two more qualifiers:
+Python regex implementation accepts also two more qualifiers:
 
 - `+` &rarr; matches **one or more occurrences** of the character that come before.
 - `?` &rarr; matches **0 or 1 occurrence** of the character before it.
@@ -59,7 +60,7 @@ _Character classes_ are indicated in parenthesis and tell to **search for all ch
 - `[^a-z]` &rarr; search for all characters that **are not** in a group.
 
 ---
-## Escaping Characters
+## Escape Characters
 
 _Escape character_ `\` tells that the following character should be interpreted as is and not as a special character. 
 
@@ -67,7 +68,7 @@ _Escape character_ `\` tells that the following character should be interpreted 
 - `\s` &rarr; matches white spaces characters (`\t`, `\n` and space).
 - `\d` &rarr; matches digits.
 - `\b` &rarr; matches word boundaries.
-  - It can be used to determine begin and end of the word, e.g. `\b[a-zA-Z]{5}\b` matches word of _exactly_ 5 letters.
+  - It can be used to determine the start and end of the word, e.g. `\b[a-zA-Z]{5}\b` matches word of _exactly_ 5 letters.
 
 
 {{% alert warning %}}
@@ -85,7 +86,7 @@ Curly brackets are used to tell how many repetitions there should be when using 
 ---
 ## Capturing Groups
 
-_Capturing groups_ are portions of the pattern that are enclosed in round parentheses. When found, the words found with this patterns can be called using `\n`, where `n` is a natural number and it determines the orged in which matches where found.
+_Capturing groups_ are portions of the pattern that are enclosed in round parentheses. When found, the words detected with these patterns can be called using `\n`, where `n` is a natural number and it determines the order in which matches where found.
 
 - `Match_obj.groups()` &rarr; see on the documentation.
 
