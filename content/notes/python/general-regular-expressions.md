@@ -31,7 +31,7 @@ regex = r”\[(\d+)\]”
   - Add the `re.IGNORECASE` parameter to ignore case in characters.
 - `re.findall(regex, string)` &rarr; return all found patterns. ([doc](https://docs.python.org/3/library/re.html#re.findall))
 - `re.split(regex, string)` take a regex as parameter and uses it to split a string. _Return a list with all the splitted parts._ ([doc](https://docs.python.org/3/library/re.html#re.split))
-- `re.sub(regex, replacement, string)` &rarr; return a string in which a part of it (found using regex) is replaced. ([doc](https://docs.python.org/3/library/re.html#re.split))
+- `re.sub(regex, replacement, string)` &rarr; return a string in which a part of it (found using regex) is replaced. ([doc](https://docs.python.org/3/library/re.html#re.sub))
 
 ---
 ## Special Characters
