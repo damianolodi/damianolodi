@@ -1,0 +1,82 @@
+  /* nav */
+  
+  .navbar-light .navbar-nav>.nav-item>.nav-link,
+  .navbar-light .navbar-nav>.nav-item>.nav-link:focus,
+  .navbar-light .navbar-nav>.nav-item>.nav-link:hover,
+  .navbar-light .navbar-nav>.nav-item>.nav-link:active {
+    font-weight: 700;
+  }
+
+  
+  .navbar-light {
+    box-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    border-bottom: 2px solid #129654;
+  }
+  
+  /* Uncomment to apply green line only under right menu 
+  .navbar-nav {
+    border-bottom: 2px solid #129654;
+  }
+  */
+  
+  .navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .02em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+  
+  /* text */
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: 400;
+  }
+  
+  body {
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 1.3em;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  /* home page */
+  
+  .portrait-title h2 {
+    color: #333;
+  }
+  
+  #about .col-12.col-lg-8 {
+    padding-top: 15px !important;
+  }
+  
+  /* images more like cards; iframes more seamless */
+  
+  img {
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  }
+
+  /* Heading text in the sections of the homepages*/
+  .section-heading > h1 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: #5E676B;
+    text-decoration: underline;
+  }
+
+  .section-heading > p {
+    font-size: 1em;
+    letter-spacing: 0.05rem;
+    color: #818D92;
+    
+  }
