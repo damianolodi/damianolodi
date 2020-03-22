@@ -2,14 +2,10 @@
 name = "damiano"
 
 # Optional Google font URL
-google_fonts = "Arapey:400,400i|Karla:400,700|Roboto+Mono"
+google_fonts = "Vollkorn:400|Open+Sans:400,700|Roboto+Mono"
 
 # Font families
-heading_font = "Arapey"
-body_font = "Karla"
-nav_font = "Karla"
+heading_font = "Vollkorn"
+body_font = "Open Sans"
+nav_font = "Open Sans"
 mono_font = "Roboto Mono"
-
-# Font size
-font_size = "18"
-font_size_small = "16"
