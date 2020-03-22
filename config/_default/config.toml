@@ -23,7 +23,7 @@ copyright = "&copy; Damiano Lodi, {year}"
 theme = "academic"
 
 # Get last modified date for content from Git?
-enableGitInfo = false
+enableGitInfo = true
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -31,7 +31,7 @@ hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
-paginate = 10  # Number of items per page in paginated lists.
+paginate = 7  # Number of items per page in paginated lists.
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
