@@ -30,7 +30,7 @@ date_format = "Jan 2006"
   certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
   date_start = "2020-02-01"
   date_end = "2020-03-31"
-  description = """This 6-course Google specialization is designed to provide all the basics skills required for an IT professional, e.g. scripting with Python and Bash, usage of Git and Github, debugging techniques and configuration management with Puppet. Even though the IT professional is not the main career path that I am looking for, I decided to follow those courses because the concepts and skills taught are of great importance both in the tech industry and for personal use, since automating repetitive tasks can help reduce the time spent and the errors made while working towards reaching a precise goal.
+  description = """This 6-course Google specialization is designed to provide all the basics skills required for an IT professional, e.g. scripting with Python and Bash, usage of Git and Github, debugging techniques and configuration management with Puppet. Even though the IT professional is not the main career path that I am looking for, I decided to follow those courses because the concepts and skills taught are of great importance both in the tech industry and for personal use, since automation helps to reduce the time spent and the errors made while working on repetitive tasks.
 
   The specialization is composed of the following courses:
   
