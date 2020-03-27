@@ -42,7 +42,7 @@
                   {{- with .university_url}}<a href="{{.}}" target="_blank"
                     rel="noopener">{{end}}{{.univeristy_name | markdownify | emojify}}{{with .university_url}}</a>{{end -}}
                 </h4>
-                {{with .location}}
+                {{with .mark}}
                 <span class="middot-divider"></span>
                 <span class="text-muted exp-company">{{.}}</span>
                 {{end}}
@@ -53,6 +53,16 @@
                   {{else}}
                   {{ i18n "present" | default "Present" }}
                   {{end}}
+                </div>
+                <div class="text-muted exp-meta">
+                  Avidsed by: {{ .advisor }}
+                  {{ if .coadvisor}}
+                  <br>
+                  Coadvised by: {{ .coadvisor }}
+                  {{end}}
+                </div>
+                <div class="text-muted exp-meta">
+                  Thesis title: "{{ .thesis_title }}"
                 </div>
               </div>
             </div>
