@@ -9064,6 +9064,12 @@ img {
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); }
 
+.company-logo {
+  box-shadow: none;
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
 /* Heading text in the sections of the homepages*/
 .section-heading > h1 {
   font-size: 1.4em;
@@ -9076,3 +9082,45 @@ img {
   font-size: 1em;
   letter-spacing: 0.05rem;
   color: #818D92; }
+
+/************************************
+  EXPERIENCE IN ABOUT PAGE
+  *************************************/
+.about-experience .card {
+  border-top: none;
+  border-bottom: none;
+  border-left: 2px solid transparent;
+  border-right: none; }
+
+.about-experience .card:hover {
+  border-left: 2px solid #129654 !important;
+  border-radius: 0; }
+
+/*TODO: add animation of appearance from center to outside like on daniel kirsch*/
+@media (max-width: 768px) {
+  .about-experience .d-flex {
+    flex-direction: column !important; }
+  .about-experience img {
+    max-height: 150px;
+    margin-top: 1em; } }
+
+/************************************
+  EDUCATION IN ABOUT PAGE
+  *************************************/
+.about-education .card {
+  border-top: none;
+  border-bottom: none;
+  border-left: 2px solid transparent;
+  border-right: none; }
+
+.about-education .card:hover {
+  border-left: 2px solid #129654 !important;
+  border-radius: 0; }
+
+/*TODO: add animation of appearance from center to outside like on daniel kirsch*/
+@media (max-width: 768px) {
+  .about-education .d-flex {
+    flex-direction: column !important; }
+  .about-education img {
+    max-height: 150px;
+    margin-top: 1em; } }

@@ -24,10 +24,10 @@ subtitle = ""
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "100%"  
+  description = ""  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "py"
   icon_pack = "fas"
   name = "Photography"
   description = "10%"

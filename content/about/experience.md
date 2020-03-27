@@ -14,7 +14,7 @@ date_format = "January 2006"
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["40px", "20px", "40px", "20px"]
+  padding = ["20px", "40px", "20px", "40px"]
 
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
@@ -25,6 +25,7 @@ date_format = "January 2006"
   title = "R&D Electrical Designer"
   company = "UpSens"
   company_url = "https://www.upsens.com/"
+  company_logo = "../img/company-logos/upsens.jpg"
   location = "Trento, Italy"
   date_start = "2019-04-01"
   date_end = ""
@@ -35,9 +36,16 @@ date_format = "January 2006"
   title = "Internship for MS Thesis Research"
   company = "UpSens"
   company_url = "https://www.upsens.com/"
+  company_logo = "../img/company-logos/upsens.jpg"
   location = "Trento, Italy"
   date_start = "2018-10-01"
   date_end = "2019-03-01"
   description = """I studied the technical and economic feasibility of an innovative multi-sensor device to be used on smart kitchen appliances. The results of my work were positive and I am still following the product development in its last phase before production."""
 
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = "about-experience"
 +++
