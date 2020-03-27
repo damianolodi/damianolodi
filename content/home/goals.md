@@ -42,7 +42,7 @@ math = true
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["20px", "40px", "20px", "40px"]
+  padding = ["20px", "20px", "20px", "20px"]
 
 [advanced]
  # Custom CSS. 
