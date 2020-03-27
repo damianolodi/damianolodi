@@ -141,3 +141,19 @@
       margin-top: 1em;
     }
   }
+
+  /************************************
+  EDUCATION IN ABOUT PAGE
+  *************************************/
+
+  .about-accomplishments .card {
+    border-top: none;
+    border-bottom: none;
+    border-left: 2px solid transparent;
+    border-right: none;
+  }
+
+  .about-accomplishments .card:hover {
+    border-left: 2px solid $sta-primary !important;
+    border-radius: 0;
+  }

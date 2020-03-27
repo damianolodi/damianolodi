@@ -42,4 +42,10 @@ date_format = "Jan 2006"
   - [Automating Real-World Tasks with Python](https://www.coursera.org/account/accomplishments/verify/N7NF4WXUW9BM)
   """
 
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = "about-accomplishments"
 +++
