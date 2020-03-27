@@ -18,7 +18,7 @@ organizations:
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a physicist with a strong interest in machine learning, robotics and practical application of modern techonlogy.
+bio: I am a physics graduate with a strong interest in business and practical application of modern technology.
 
 interests:
 - Embedded Development
@@ -63,10 +63,10 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups: []
 
+
+new_work: "currently working at LEOS-instruments, where we research and develop single-mode lasers for high-precision spectroscopy."
 ---
 
-I am a physicist with a strong interest in business, startups and practical application of modern technologies. I am currently delving into the world of machine learning and artificial intelligence, which I find increadibly fascinating and full of potential in so many different sectors. In particular, I am more interested in applications oriented towards environment protection and innovation.
+I am a physics graduate currently working at UpSens, where we research and develop sensors and devices used for environmental monitoring. Even though applied research is my main job, I have a strong interest in the business side of modern technologies, and I always enjoy learning about new innovative companies and startups. My main interest is geared toward innovation in technology and AI to address climate change and environmental conservation.
 
-Currently, I work at UpSens, an Italian startup focused on the development of environmental monitoring devices. It is part of the Optoi group, a major Italian group committed to the sensors and IoT world.
-
-In my free time, I enjoy tasting and researching new teas from all over the world. This is my way to briefly stop nowadays frenetic life, reorganize ideas and restart working with even more passion and perseverance towards my goals.
+In my free time, I enjoy painting miniature models and tasting new teas from all over the world. This is my way to briefly stop nowadays frenetic life and reorganize ideas before going back to work with even more energy towards my goals.
