@@ -3,11 +3,11 @@
 
 title: "My 2020 Goals"
 subtitle: "And further website development."
-summary: ""
+summary: "As for everyone, the new year is the best time to set new goals and, for me this year, is the perfect time to start writing something on my new website!"
 slug: "2020-goals"
 authors: []
-tags: []
-categories: []
+tags: ["tag1", "tag2"]
+categories: ["cat1", "cat2"]
 date: 2020-01-03T12:00:00+01:00
 lastmod: 2020-01-03T12:00:00+01:00
 featured: true
