@@ -25,79 +25,21 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Coursera"
   organization_url = "https://www.coursera.org"
-  title = "Crash Course on Python"
-  url = "https://www.coursera.org/learn/python-crash-course?specialization=google-it-automation"
-  certificate_url = "https://www.coursera.org/account/accomplishments/verify/3VTF5GTT96BP"
+  title = "Google IT Automation with Python"
+  url = "https://www.coursera.org/professional-certificates/google-it-automation"
+  certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
   date_start = "2020-02-01"
-  date_end = ""
-  description = "..."
-  specialization = "Google IT Automation with Python"
-  course_number_in_specialization = 1
-  specialization_certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
+  date_end = "2020-03-31"
+  description = """This 6-course Google specialization is designed to provide all the basics skills required for an IT professional, e.g. scripting with Python and Bash, usage of Git and Github, debugging techniques and configuration management with Puppet. Even though the IT professional is not the main career path that I am looking for, I decided to follow those courses because the concepts and skills taught are of great importance both in the tech industry and for personal use, since automating repetitive tasks can help reduce the time spent and the errors made while working towards reaching a precise goal.
 
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Using Python to Interact with the Operating System"
-  url = "https://www.coursera.org/learn/python-operating-system?specialization=google-it-automation"
-  certificate_url = "https://www.coursera.org/account/accomplishments/verify/XTFY6EB2XH4T"
-  date_start = "2020-02-01"
-  date_end = ""
-  description = "..."
-  specialization = "Google IT Automation with Python"
-  course_number_in_specialization = 2
-  specialization_certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Introduction to Git and GitHub"
-  url = "https://www.coursera.org/learn/introduction-git-github?specialization=google-it-automation"
-  certificate_url = "https://www.coursera.org/account/accomplishments/verify/7CXM6FE4AQ9Q"
-  date_start = "2020-02-01"
-  date_end = ""
-  description = "..."
-  specialization = "Google IT Automation with Python"
-  course_number_in_specialization = 3
-  specialization_certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Troubleshooting and Debugging Techniques"
-  url = "https://www.coursera.org/learn/troubleshooting-debugging-techniques?specialization=google-it-automation"
-  certificate_url = "https://www.coursera.org/account/accomplishments/verify/WYEGQ7GJKQF2"
-  date_start = "2020-03-01"
-  date_end = ""
-  description = "..."
-  specialization = "Google IT Automation with Python"
-  course_number_in_specialization = 4
-  specialization_certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Configuration Management and the Cloud"
-  url = "https://www.coursera.org/learn/configuration-management-cloud"
-  certificate_url = "https://www.coursera.org/account/accomplishments/verify/A73ZTDFDT4F2"
-  date_start = "2020-03-01"
-  date_end = ""
-  description = "..."
-  specialization = "Google IT Automation with Python"
-  course_number_in_specialization = 5
-  specialization_certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
-
-[[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Automating Real-World Tasks with Python"
-  url = "https://www.coursera.org/learn/automating-real-world-tasks-python"
-  certificate_url = "https://www.coursera.org/account/accomplishments/verify/N7NF4WXUW9BM"
-  date_start = "2020-03-01"
-  date_end = ""
-  description = "..."
-  specialization = "Google IT Automation with Python"
-  course_number_in_specialization = 6
-  specialization_certificate_url = "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
+  The specialization is composed of the following courses:
+  
+  - [Crash Course on Python](https://www.coursera.org/account/accomplishments/verify/3VTF5GTT96BP)
+  - [Using Python to Interact with the Operating System](https://www.coursera.org/account/accomplishments/verify/XTFY6EB2XH4T)
+  - [Introduction to Git and GitHub](https://www.coursera.org/account/accomplishments/verify/7CXM6FE4AQ9Q)
+  - [Troubleshooting and Debugging Techniques](https://www.coursera.org/account/accomplishments/verify/WYEGQ7GJKQF2)
+  - [Configuration Management and the Cloud](https://www.coursera.org/account/accomplishments/verify/A73ZTDFDT4F2)
+  - [Automating Real-World Tasks with Python](https://www.coursera.org/account/accomplishments/verify/N7NF4WXUW9BM)
+  """
 
 +++
