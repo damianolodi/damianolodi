@@ -45,6 +45,13 @@
   h1 {
     font-size: 2rem;
   }
+
+  /* section headers */
+  div.universal-wrapper.pt-3 h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+  }
   
   /* home page */
   
@@ -156,4 +163,13 @@
   .about-accomplishments .card:hover {
     border-left: 2px solid $sta-primary !important;
     border-radius: 0;
+  }
+
+  /************************************
+  PROJECTS PAGE
+  *************************************/
+
+  /*Place filter in the center of the page*/
+  .btn-toolbar {
+    justify-content: center;
   }

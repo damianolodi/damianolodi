@@ -2,7 +2,7 @@
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
 title: "My 2020 Goals"
-subtitle: "And further website development"
+subtitle: "And further website development."
 summary: ""
 slug: "2020-goals"
 authors: []
