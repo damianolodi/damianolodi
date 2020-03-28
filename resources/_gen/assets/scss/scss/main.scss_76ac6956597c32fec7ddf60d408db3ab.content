@@ -9096,11 +9096,14 @@ img {
   border-top: none;
   border-bottom: none;
   border-left: 2px solid transparent;
-  border-right: none; }
+  border-right: none;
+  background-color: #f5f5f1;
+  box-shadow: none; }
 
 .about-experience .card:hover {
   border-left: 2px solid #129654 !important;
-  border-radius: 0; }
+  border-radius: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); }
 
 /*TODO: add animation of appearance from center to outside like on daniel kirsch*/
 @media (max-width: 768px) {
@@ -9117,11 +9120,14 @@ img {
   border-top: none;
   border-bottom: none;
   border-left: 2px solid transparent;
-  border-right: none; }
+  border-right: none;
+  background-color: #f5f5f1;
+  box-shadow: none; }
 
 .about-education .card:hover {
   border-left: 2px solid #129654 !important;
-  border-radius: 0; }
+  border-radius: 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); }
 
 /*TODO: add animation of appearance from center to outside like on daniel kirsch*/
 @media (max-width: 768px) {
@@ -9138,11 +9144,15 @@ img {
   border-top: none;
   border-bottom: none;
   border-left: 2px solid transparent;
-  border-right: none; }
+  border-right: none;
+  background-color: #f5f5f1;
+  box-shadow: none; }
 
 .about-accomplishments .card:hover {
   border-left: 2px solid #129654 !important;
-  border-radius: 0; }
+  border-radius: 0;
+  padding-left: 0px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2); }
 
 /************************************
   PROJECTS PAGE
