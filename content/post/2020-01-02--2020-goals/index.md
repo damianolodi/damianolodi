@@ -9,7 +9,6 @@ authors: []
 tags: []
 categories: ["Personal growth"]
 date: 2020-01-03T12:00:00+01:00
-lastmod: 2020-01-03T12:00:00+01:00
 featured: true
 draft: false
 
