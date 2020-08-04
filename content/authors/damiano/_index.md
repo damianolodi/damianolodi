@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: R&D Electrical Designer
+role: Researcher
 
 # Organizations/Affiliations
 organizations:
-- name: UpSens
+- name: LEOS
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
@@ -62,11 +62,8 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
 user_groups: []
-
-
-new_work: "currently working at LEOS-instruments, where we research and develop single-mode lasers for high-precision spectroscopy."
 ---
 
-I am a physics graduate currently working at UpSens, where we research and develop sensors and devices used for environmental monitoring. Even though applied research is my main job, I have a strong interest in the business side of modern technologies, and I always enjoy learning about new innovative companies and startups. My main interest is geared toward innovation in technology and AI to address climate change and environmental conservation.
+I am a physics graduate currently working at LEOS, where we research and develop single-frequency lasers for high-precision spectroscopy. Even though applied research is my main job, I have a strong interest in the business side of modern technologies, and I always enjoy learning about new innovative companies and startups. My main interest is geared toward innovation in technology and AI to address climate change and environmental conservation.
 
 In my free time, I enjoy painting miniature models and tasting new teas from all over the world. This is my way to briefly stop nowadays frenetic life and reorganize ideas before going back to work with even more energy towards my goals.

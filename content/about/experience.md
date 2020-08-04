@@ -22,14 +22,24 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Researcher"
+  company = "LEOS"
+  company_url = "http://www.leos-instruments.com/"
+  company_logo = "../img/company-logos/leos.jpg"
+  location = "Rovereto, Italy"
+  date_start = "2020-05-25"
+  date_end = ""
+  description = """Currently, I am involved in the research of a new wavemeter, able to measure light in a very broad wavelength spectrum. In addition, I am also following the development of the electronics for our laser system."""
+
+[[experience]]
   title = "R&D Electrical Designer"
   company = "UpSens"
   company_url = "https://www.upsens.com/"
   company_logo = "../img/company-logos/upsens.jpg"
   location = "Trento, Italy"
   date_start = "2019-04-01"
-  date_end = ""
-  description = """Currently, I am following 3 research projects (one in the role of Junior Project Manager) concerning the development of IoT devices to be applied in smart kitchen appliances and green buildings.
+  date_end = "2020-05-15"
+  description = """I followed 3 research projects (one in the role of Junior Project Manager) concerning the development of IoT devices to be applied in smart kitchen appliances and green buildings.
   """
 
 [[experience]]
