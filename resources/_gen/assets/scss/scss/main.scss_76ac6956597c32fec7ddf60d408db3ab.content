@@ -7045,7 +7045,7 @@ body {
   font-size: 1rem;
   line-height: inherit;
   color: inherit;
-  background-color: #f5f5f1;
+  background-color: #f9f9f9;
   margin-top: 70px;
   /* Offset body content by navbar height. */
   padding-top: 0;
@@ -7236,7 +7236,7 @@ small,
  *  Modals.
  **************************************************/
 .modal-content {
-  background: #f5f5f1; }
+  background: #f9f9f9; }
 
 .modal-title {
   margin: 0;
@@ -7532,7 +7532,7 @@ div.alert a {
   min-height: 70px !important; }
 
 .navbar-light {
-  background: #f5f5f1 !important;
+  background: #f9f9f9 !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11); }
 
 .navbar-light .navbar-toggler {
@@ -7587,7 +7587,7 @@ nav#navbar-main li.nav-item {
   background-color: #333 !important; }
 
 .dropdown-menu {
-  background-color: #f5f5f1 !important; }
+  background-color: #f9f9f9 !important; }
 
 .dropdown-menu > li > a {
   display: block;
@@ -7602,12 +7602,12 @@ nav#navbar-main li.nav-item {
 .dropdown-menu > li > a:hover {
   color: #129654;
   text-decoration: none;
-  background-color: #f5f5f1; }
+  background-color: #f9f9f9; }
 
 .dropdown-menu > .active,
 .dropdown-menu > .active:focus,
 .dropdown-menu > .active:hover {
-  color: #f5f5f1;
+  color: #f9f9f9;
   text-decoration: none;
   background-color: #129654;
   outline: 0; }
@@ -7617,7 +7617,7 @@ nav#navbar-main li.nav-item {
 .navbar-light .navbar-nav > .open > a:hover,
 .navbar-light .navbar-nav > .open > a:visited {
   color: #333 !important;
-  background-color: #f5f5f1 !important; }
+  background-color: #f9f9f9 !important; }
 
 .navbar-light .navbar-brand {
   font-weight: bold;
@@ -7786,7 +7786,7 @@ nav#navbar-main li.nav-item {
 .search-results {
   transform: scale(0);
   -webkit-transform: scale(0);
-  background-color: #f5f5f1;
+  background-color: #f9f9f9;
   bottom: 0;
   left: 0;
   right: 0;
@@ -7825,7 +7825,7 @@ nav#navbar-main li.nav-item {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: #f5f5f1;
+  background-color: #f9f9f9;
   padding-top: 2rem;
   padding-bottom: 1rem; }
 
@@ -8235,7 +8235,7 @@ ul.share li:hover i {
     opacity: 1; } }
 
 .home-section {
-  background-color: #f5f5f1;
+  background-color: #f9f9f9;
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s; }
@@ -8288,7 +8288,7 @@ ul.share li:hover i {
   padding-top: 50px; }
 
 .home-section:nth-of-type(even) {
-  background-color: #f5f5f1; }
+  background-color: #f9f9f9; }
 
 .dark .home-section {
   background-color: #272935; }
@@ -9097,7 +9097,7 @@ img {
   border-bottom: none;
   border-left: 2px solid transparent;
   border-right: none;
-  background-color: #f5f5f1;
+  background-color: #f9f9f9;
   box-shadow: none; }
 
 .about-experience .card:hover {
@@ -9121,7 +9121,7 @@ img {
   border-bottom: none;
   border-left: 2px solid transparent;
   border-right: none;
-  background-color: #f5f5f1;
+  background-color: #f9f9f9;
   box-shadow: none; }
 
 .about-education .card:hover {
@@ -9145,7 +9145,7 @@ img {
   border-bottom: none;
   border-left: 2px solid transparent;
   border-right: none;
-  background-color: #f5f5f1;
+  background-color: #f9f9f9;
   box-shadow: none; }
 
 .about-accomplishments .card:hover {
@@ -9160,3 +9160,11 @@ img {
 /*Place filter in the center of the page*/
 .btn-toolbar {
   justify-content: center; }
+
+/************************************
+ALERTS
+*************************************/
+.article-style aside p::before,
+div.alert > div:first-child::before {
+  top: 0rem;
+  left: -2.5rem; }
