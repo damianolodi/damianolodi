@@ -99,7 +99,7 @@ Based on the board you want to program, you need to `cd` into:
 
 ## Step 3 - Changing `vendor_id` and `product_id`
 
-Now that you found the right path for your board, you need to change the `VENDOR_ID` and `PRODUCT_ID` definitions in the `usb_desc.h` file. 
+Now that you found the right path for your board, you need to change the `VENDOR_ID` and `PRODUCT_ID` definitions in the `usb_desc.h` file.
 
 You can do that using *nano* (or whichever text editor you prefer) by typing `nano usb_desc.h`. Then, find the following lines and change them as you prefer.
 
@@ -121,7 +121,7 @@ Finally, you can recompile and upload your program as you always do. Next time y
 
 As much as it is exciting, changing the Tensy USB name has a downside: when you try to upload a program to a *no-more-Teensy*, Teensyduino will not recognize it and will fail to flash the binary. Luckily, you just need to press the button that you find on the board to make it work.
 
-## Conclusion 
+## Conclusion
 
 Following this article you learned:
 
