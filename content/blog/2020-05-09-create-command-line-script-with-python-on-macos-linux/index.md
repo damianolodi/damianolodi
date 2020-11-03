@@ -1,6 +1,4 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
 title: "How to Create and Execute a Command Line Script with Python on macOS (and Linux)"
 subtitle: "Making automation even better."
 summary: "Python can be a very powerful replacement of Bash to write scripts that can used inside the command-line. Unfortunately, for the Python beginner, some non-obvious steps are required to transform a “normal” program into an executable script. This post will explain exactly how to execute a Python script from the command line explaining each necessary step."
@@ -10,21 +8,6 @@ categories: ["Python", "Automation"]
 date: 2020-05-09T12:00:00+02:00
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
 
 ## Introduction
@@ -78,7 +61,9 @@ The `python3` executable was placed on your system while you installed Python. Y
 print(“Hello world!”)
 ```
 
-> The sequence `#!` is called ***shebang,*** and it is used by the system basically to understand in which language the program is written.
+{{% callout note %}}
+The sequence `#!` is called ***shebang,*** and it is used by the system basically to understand in which language the program is written.
+{{% /callout %}}
 
 The problem now is that you need to know where the Python executable is on your system, but this can change based on how you installed it and which system you are using. Luckily for you, the command `which` can search it for you! Type
 

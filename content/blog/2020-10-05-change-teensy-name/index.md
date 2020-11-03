@@ -29,6 +29,8 @@ The Teensy is a development board which is gaining quite a lot of popularity. Wh
 
 On the PJRC forum is full of resources explaining how to do it on Windows, but I have not found any resource on how to get a similar result on Linux. In this post, we are going to change the Teensy USB name so that it will be detected by your Linux computer.
 
+---
+
 ## Prerequisites
 
 - A computer with Linux. I am working on Ubuntu 18.04
@@ -36,6 +38,8 @@ On the PJRC forum is full of resources explaining how to do it on Windows, but I
 - Teensyduino or PlatformIO installed
 - Familiarity with C or Arduino development. Ideally, you already have a program that is using the USB serial communication between the Teensy and your computer. If not, [you can use this sample program](https://github.com/PaulStoffregen/USB-Serial-Print-Speed-Test/blob/master/usb_serial_print_speed.ino).
 - Familiarity with the command line. In particular, you need to know how to use the `cd` and `ls` commands.
+
+---
 
 ## Step 1 - The `lsusb` Command
 
@@ -64,6 +68,8 @@ Bus 001 Device 060: ID 16c0:0483 Van Ooijen Technische Informatica Teensyduino S
 ```
 
 The problem is that, if you connect $n$ Teensy boards (with $n>2$) you will obtain $n$ equal lines. So, if each Teensy has a different program on it, you cannot distinguish them.
+
+---
 
 ## Step 2 - Finding `vendor_id` and `product_id`
 
@@ -97,6 +103,8 @@ Based on the board you want to program, you need to `cd` into:
 - `teensy3` for Teensy LC and Teensy $3.x$
 - `teensy4` for Teensy $4.x$
 
+---
+
 ## Step 3 - Changing `vendor_id` and `product_id`
 
 Now that you found the right path for your board, you need to change the `VENDOR_ID` and `PRODUCT_ID` definitions in the `usb_desc.h` file.
@@ -114,6 +122,8 @@ Keep in mind the following:
 2. if you insert a `VENDOR_ID` that is already assigned, your device will be recognized as that one. This is not important if you just need to recognize the Teensy in your project.
 
 Now save and exit from *nano* typing `ctrl+X` and `Y`.
+
+---
 
 ## Step 4 - Compiling and Uploading
 
