@@ -1,8 +1,6 @@
-public/
+# IDEs
 .idea/
-.DS_Store
 
-content/notes/ai/
-content/post/2020-01-27-ti-rslk-max-module-6
-content/notes/python/tensorflow-*
-content/notes/command-line/git-*
+# Hugo
+/resources/
+public/

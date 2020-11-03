@@ -1,195 +1,111 @@
-  /* nav */
+/* nav */
+.navbar-light {
+  // box-shadow: none;
+  letter-spacing: .05em;
+  border-bottom: 2px solid $sta-primary;
+}
   
-  .navbar-light .navbar-nav>.nav-item>.nav-link,
-  .navbar-light .navbar-nav>.nav-item>.nav-link:focus,
-  .navbar-light .navbar-nav>.nav-item>.nav-link:hover,
-  .navbar-light .navbar-nav>.nav-item>.nav-link:active {
-    font-weight: 700;
-  }
-
+.navbar-brand {text-transform: uppercase;}
   
-  .navbar-light {
-    box-shadow: none;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    border-bottom: 2px solid #129654;
-  }
+/* text */
+body {
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.35rem;
+}
   
-  /* Uncomment to apply green line only under right menu 
-  .navbar-nav {
-    border-bottom: 2px solid #129654;
-  }
-  */
-  
-  .navbar-brand {
-    text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: .02em;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-  }
-  
-  /* text */
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #333;
-    font-weight: 400;
-  }
-  
-  body {
-    color: #333;
-    font-size: 0.9rem;
-    line-height: 1.35rem;
-  }
-  
-  h1 {
-    font-size: 2rem;
-  }
+h1{font-size: 2rem;}
 
-  /* section headers */
-  div.universal-wrapper.pt-3 h1 {
-    text-align: center;
-    padding-bottom: 50px;
-    text-transform: capitalize;
-  }
-  
-  /* home page */
-  
-  .portrait-title h2 {
-    color: #333;
-  }
-  
-  #about .col-12.col-lg-8 {
-    padding-top: 15px !important;
-  }
-  
-  /* images more like cards; iframes more seamless */
-  
-  img {
-      margin-bottom: 1.5rem;
-      overflow: hidden;
-      background: #fff;
-      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-  }
+/* images more like cards; iframes more seamless */
+// img {
+//     margin-bottom: 1.5rem;
+//     overflow: hidden;
+//     background: #fff;
+//     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+// }
+// .company-logo {
+//   box-shadow: none;
+//   border: 0;
+//   margin: 0;
+//   padding: 0;
+// }
 
-  .company-logo {
-    box-shadow: none;
-    border: 0;
-    margin: 0;
-    padding: 0;
-  }
+/* Heading text in the sections of the homepages*/
+.section-heading > h1 {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #757575; // from material design
+}
 
-  /* Heading text in the sections of the homepages*/
-  .section-heading > h1 {
-    font-size: 1.4em;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    color: #5E676B;
-    text-decoration: underline;
-  }
+.section-heading > p {
+  font-size: 1em;
+  letter-spacing: 0.05rem;
+  color: #757575;
+}
 
-  .section-heading > p {
-    font-size: 1em;
-    letter-spacing: 0.05rem;
-    color: #818D92;
-  }
-
-  /************************************
-  EXPERIENCE IN ABOUT PAGE
-  *************************************/
-  .about-experience .card {
-    border-top: none;
-    border-bottom: none;
-    border-left: 2px solid transparent;
-    border-right: none;
-    background-color: $sta-background;
-    box-shadow: none;
-  }
-
-  .about-experience .card:hover {
-    border-left: 2px solid $sta-primary !important;
-    border-radius: 0;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  }
-  /*TODO: add animation of appearance from center to outside like on daniel kirsch*/
-
-  @media (max-width: 768px) {
-    .about-experience .d-flex {
-      flex-direction: column !important;
-    }
-
-    .about-experience img {
-      max-height: 150px;
-      margin-top: 1em;
-    }
-  }
-
-  /************************************
-  EDUCATION IN ABOUT PAGE
-  *************************************/
-
-  .about-education .card {
-    border-top: none;
-    border-bottom: none;
-    border-left: 2px solid transparent;
-    border-right: none;
-    background-color: $sta-background;
-    box-shadow: none;
-  }
-
-  .about-education .card:hover {
-    border-left: 2px solid $sta-primary !important;
-    border-radius: 0;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  }
-  /*TODO: add animation of appearance from center to outside like on daniel kirsch*/
-
-  @media (max-width: 768px) {
-    .about-education .d-flex {
-      flex-direction: column !important;
-    }
-
-    .about-education img {
-      max-height: 150px;
-      margin-top: 1em;
-    }
-  }
-
-  /************************************
-  EDUCATION IN ABOUT PAGE
-  *************************************/
-
-  .about-accomplishments .card {
-    border-top: none;
-    border-bottom: none;
-    border-left: 2px solid transparent;
-    border-right: none;
-    background-color: $sta-background;
-    box-shadow: none;
-  }
-
-  .about-accomplishments .card:hover {
-    border-left: 2px solid $sta-primary !important;
-    border-radius: 0;
-    padding-left: 0px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
-  }
-
-  /************************************
-  PROJECTS PAGE
-  *************************************/
-
-  /*Place filter in the center of the page*/
-  .btn-toolbar {
-    justify-content: center;
-  }
-
-  
 /************************************
-ALERTS
+EXPERIENCE IN ABOUT PAGE
 *************************************/
-  .article-style aside p::before,
-  div.alert > div:first-child::before {
-    top: 0rem;
-    left: -2.5rem;
+.about-experience .card {
+  border-left: 2px solid transparent;
+  background-color: $sta-background;
+}
+
+.about-experience .card:hover {
+  border-left: 2px solid $sta-primary !important;
+  border-radius: 0;
+}
+// /*TODO: add animation of appearance from center to outside like on daniel kirsch*/
+
+@media (max-width: 768px) {
+  .about-experience .d-flex {
+    flex-direction: column !important;
   }
+
+  .about-experience img {
+    max-height: 150px;
+    margin-top: 1em;
+  }
+}
+
+/************************************
+EDUCATION IN ABOUT PAGE
+*************************************/
+
+.about-education .card {
+  border-left: 2px solid transparent;
+  background-color: $sta-background;
+}
+
+.about-education .card:hover {
+  border-left: 2px solid $sta-primary !important;
+  border-radius: 0;
+}
+// /*TODO: add animation of appearance from center to outside like on daniel kirsch*/
+
+@media (max-width: 768px) {
+  .about-education .d-flex {
+    flex-direction: column !important;
+  }
+
+  .about-education img {
+    max-height: 150px;
+    margin-top: 1em;
+  }
+}
+
+/************************************
+EDUCATION IN ABOUT PAGE
+*************************************/
+
+.about-accomplishments .card {
+  border-left: 2px solid transparent;
+  background-color: $sta-background;
+}
+
+.about-accomplishments .card:hover {
+  border-left: 2px solid $sta-primary !important;
+  border-radius: 0;
+  padding-left: 0px;
+}

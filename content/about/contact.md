@@ -15,9 +15,10 @@ autolink = true
 #   0: Disable email form
 #   1: Netlify (requires that the site is hosted by Netlify)
 #   2: formspree.io
-email_form = 1
+email_form = 2
 
-[design.spacing]
-  # Customize the section spacing. Order is top, right, bottom, left.
-  padding = ["40px", "20px", "20px", "20px"]
+# Netlify form settings.
+[netlify]
+  captcha = false  # Enable CAPTCHA challenge to reduce spam?
 +++
+
