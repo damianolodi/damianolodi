@@ -5,15 +5,15 @@ name = "Green Custom Theme"
 light = true
 
 # Primary
-primary = "#129654"
+primary = "#4CAF50"
 
 # Menu
-menu_primary = "#f9f9f9"
-menu_text = "#333"
-menu_text_active = "#129654"
-menu_title = "#333"
+menu_primary = "#fff"
+menu_text = "#212121"
+menu_text_active = "#4CAF50"
+menu_title = "#212121"
 
 # Home
-background = "#f9f9f9"
-home_section_odd = "#f9f9f9"
-home_section_even = "#f9f9f9"
+background = "#fff"
+home_section_odd = "fff"
+home_section_even = "fff"
