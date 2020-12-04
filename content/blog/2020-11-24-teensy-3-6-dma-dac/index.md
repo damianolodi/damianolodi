@@ -97,14 +97,13 @@ Then again, if you search the register in the documentation and look at the defi
 > DAC0 Clock Gate Control
 >
 > This bit controls the clock gate to the DAC0 module.
-> 
+>
 > - 0 Clock disabled
 > - 1 Clock enabled
 
 {{% callout note %}}
 If you are at the start of your embedded development journey, exploring the code that you are copy/pasting is a tremendous learning tool.
 {{% /callout  %}}
-
 
 ---
 
@@ -214,7 +213,7 @@ Congratulations, you just transformed your Teensy into a waveform generator!
 
 ---
 
-## Conclusion 
+## Conclusion
 
 In this article, you configured a DMA channel of your Teensy to update the DAC0 output and generate a sawtooth waveform. I hope that you got a feel of how to read a development manual, a very useful thing if you want to dig deeper into embedded developments.
 

@@ -97,7 +97,7 @@ show_related = {docs = false, page = false, post = true, project = true, publica
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "damiano.lodi.93@gmail.com"
+email = ""
 phone = ""
 
 # Address
