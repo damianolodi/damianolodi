@@ -5,7 +5,8 @@
 
 title: Damiano Lodi # Website name
 baseurl: 'https://damianolodi.com/' # Website URL
-copyright: '&copy; Damiano Lodi, {year} - Made using <a href=\"https://github.com/damianolodi/damianolodi\" target=\"_blank\" rel=\"noopener\"><i class=\"fas fa-code-branch\"></i></a>, <a href=\"https://gohugo.io\" target=\"_blank\" rel=\"noopener\">Hugo</a> and the <a href=\"https://wowchemy.com/\" target=\"_blank\" rel=\"noopener\">Wowchemy</a> theme. Hosted on <a href=\"https://www.netlify.com/\" target=\"_blank\" rel=\"noopener\">Netlify</a>.' # Footer text, e.g. '© {year} Me'
+copyright: >-
+  &copy; Damiano Lodi, {year} - Made using <a href="https://github.com/damianolodi/damianolodi" target="_blank" rel="noopener"><i class="fas fa-code-branch"></i></a>, <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> and the <a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy</a> theme. Hosted on <a href="https://www.netlify.com/" target="_blank" rel="noopener">Netlify</a>.
 
 ############################
 ## LANGUAGE
@@ -32,7 +33,7 @@ module:
 enableGitInfo: false
 summaryLength: 30
 paginate: 10
-enableEmoji: false
+enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
