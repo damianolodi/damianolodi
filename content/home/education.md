@@ -15,7 +15,7 @@ date_format: "January 2006"
 design:
   spacing:
     # Customize the section spacing. Order is top, right, bottom, left.
-    padding: ["20px", "20px", "20px", "20px"]
+    padding: ["20px", "20px", "40px", "20px"]
 
 experience:
 - title: Master of Science in Experimental Physics (Nanophotonics)
@@ -46,10 +46,4 @@ experience:
   thesis_title: "Numerical Solution of Maxwell Equations for Periodic and Defected Photonic Crystals"
   description: ""
 
-advanced:
- # Custom CSS. 
- css_style: ""
- 
- # CSS class.
- css_class: "about-education"
 ---

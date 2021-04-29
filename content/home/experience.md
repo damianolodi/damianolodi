@@ -52,5 +52,5 @@ experience:
 design:
   columns: '2'
   spacing:
-    padding: ["40px", "40px", "40px", "40px" ]
+    padding: ["40px", "20px", "40px", "20px" ]
 ---
