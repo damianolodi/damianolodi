@@ -109,3 +109,12 @@ EDUCATION IN ABOUT PAGE
   border-radius: 0;
   padding-left: 0px;
 }
+
+/************************************
+CALLOUTS
+*************************************/
+.article-style aside p::before,
+div.alert > div:first-child::before {
+  top: 0rem;
+  left: -2.5rem;
+}
