@@ -21,8 +21,7 @@
     debug = true
 
 [[redirects]]
-  from = "/blog/how-to-dma-teensy-3-6-dac-waveforms"
-  to = "https://journeytoengineering.netlify.app/blog/how-to-setup-icestorm-toolchain-icestick-macos"
-  status = 301
+  from = "/blog/*"
+  to = "https://journeytoengineering.netlify.app/blog/*"
+  status = 200
   force = true
-  query = {path = ":path"} #  apply this rule for /old-path?path=example
