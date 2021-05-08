@@ -5,10 +5,10 @@ title: Damiano Lodi
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
+# Role/position/tagline
 role: Researcher
 
-# Organizations/Affiliations
+# Organizations/Affiliations to show in About widget
 organizations:
 - name: LEOS
   url: ""
@@ -16,6 +16,7 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: I am a physics graduate with a strong interest in business and practical application of modern technology.
 
+# Interests to show in About widget
 interests:
 - Embedded Development
 - Data Science and AI
@@ -23,6 +24,7 @@ interests:
 - Miniature Painting
 - Tea
 
+# Education to show in About widget
 education:
   courses:
   - course: MS in Experimental Physics (Nanophotonics)
@@ -32,10 +34,11 @@ education:
     institution: University of Trento
     year: 2016
 
+
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
 - icon: github
   icon_pack: fab
@@ -44,24 +47,21 @@ social:
   icon_pack: fab
   link: https://www.linkedin.com/in/damiano-lodi/
 
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+# Link to a PDF of your resume/CV.
+# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
+# and uncomment the lines below.
 # - icon: cv
 #   icon_pack: ai
-#   link: files/cv.pdf
+#   link: media/resume.pdf
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: '#contact'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
-
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups: []
 ---
 
 I am a physics graduate currently working at LEOS, where we research and develop single-frequency lasers for high-precision spectroscopy. Even though applied research is my main job, I have a strong interest in the business side of modern technologies, and I always enjoy learning about new innovative companies and startups. My main interest is geared toward innovation in technology and AI to address climate change and environmental conservation.
