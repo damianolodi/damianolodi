@@ -22,6 +22,6 @@
 
 [[redirects]]
   from = "/blog/*"
-  to = "https://journeytoengineering.netlify.app/blog/*"
-  status = 200
+  to = "https://journeytoengineering.netlify.app/blog/:splat"
+  status = 301
   force = true
