@@ -32,7 +32,7 @@ experience:
   description: |2-
     The Master’s Degree of the University of Trento granted me the possibility to investigate a vast number of topics that are relevant in modern physics, with a particular focus on nanophotonics. Some of the reviewed topics are photonics, quantum optics, optoelectronics, laser cooling, magneto-optical traps, signal analysis and FPGA development. 
   
-    During my first year, I developed an interest in industry and entrepreneurship, and this led me to the decision of conducting my thesis research in a local startup. The theme of my thesis has been the study of the technological and financial feasibility of an innovative multi-sensors IoT device to be applied in the kitchen room."""      
+    During my first year, I developed an interest in industry and entrepreneurship, and this led me to the decision of conducting my thesis research in a local startup. The theme of my thesis has been the study of the technological and financial feasibility of an innovative multi-sensors IoT device to be applied in the kitchen room.      
 - title: "Bachelor of Science in Physics"
   univeristy_name: "University of Trento"
   university_url: "https://www.unitn.it/en"
