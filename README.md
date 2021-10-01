@@ -9,3 +9,11 @@ Update with email when created
 <a href="mailto:info@..."><img src="https://img.shields.io/badge/@damianolodi-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge" title="Gmail Badge"/></a>
 
 -->
+
+## About Me
+
+- :hammer_and_wrench: Making single frequency LASERs at LEOS s.r.l.
+- :mortar_board: MS in experimental physics at [UniTn](https://www.unitn.it/en)
+- :books: Learning embedded development in my free time
+- :memo: Writing about what I am learning at [Journey to Engineering](https://journeytoengineering.netlify.app/)
+- :seedling: Growing carnivorous plants
