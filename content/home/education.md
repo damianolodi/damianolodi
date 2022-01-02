@@ -29,10 +29,15 @@ experience:
   coadvisor: "Ing. Alfredo Maglione, Ing. Marco Facchini"
   mark: "110/110 cum laude"
   thesis_title: "Study of a Multi-Sensors System for Kitchen Environment Monitoring"
-  description: |2-
-    The Master’s Degree of the University of Trento granted me the possibility to investigate a vast number of topics that are relevant in modern physics, with a particular focus on nanophotonics. Some of the reviewed topics are photonics, quantum optics, optoelectronics, laser cooling, magneto-optical traps, signal analysis and FPGA development. 
-  
-    During my first year, I developed an interest in industry and entrepreneurship, and this led me to the decision of conducting my thesis research in a local startup. The theme of my thesis has been the study of the technological and financial feasibility of an innovative multi-sensors IoT device to be applied in the kitchen room.      
+  description: |
+    The Master’s Degree of the University of Trento granted me the possibility to investigate a vast number of topics relevant to modern physics, with a particular focus on nanophotonics. A partial list of covered topics is listed in the following.
+    - photonics and quantum optics
+    - optoelectronics
+    - laser cooling and magneto-optical traps
+    - signal analysis and FPGA development.
+
+    <br/>During my first year, I developed an interest in industry and entrepreneurship, which led me to the decision of conducting my thesis research in a local startup. The theme of my thesis has been the study of the technological and financial feasibility of an innovative multi-sensors IoT device applied in smart-kitchen appliances.
+
 - title: "Bachelor of Science in Physics"
   univeristy_name: "University of Trento"
   university_url: "https://www.unitn.it/en"
