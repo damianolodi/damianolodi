@@ -25,8 +25,8 @@ date_format: Jan 2006
 item:
 #- certificate_url: "https://embeddedartistry.com/blog/certificate/ac8a8cf1/"
 - certificate_url: ""
-  date_end: "2021-10-01"
-  date_start: "2021-11-25"
+  date_end: "2021-11-25"
+  date_start: "2021-10-01"
   organization: "Embedded Artistry"
   organization_url: "https://embeddedartistry.com/"
   title: "Creating a Cross-Platform Build System for Embedded Projects with CMake"
@@ -38,8 +38,8 @@ item:
 
 #- certificate_url: "https://embeddedartistry.com/blog/certificate/5dc6c080/"
 - certificate_url: ""
-  date_end: "2021-06-01"
-  date_start: "2021-08-21"
+  date_end: "2021-08-21"
+  date_start: "2021-06-01"
   organization: "Embedded Artistry"
   organization_url: "https://embeddedartistry.com/"
   title: "Introduction to Build Systems using Make"
