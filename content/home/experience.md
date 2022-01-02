@@ -31,15 +31,19 @@ experience:
     date_end: ""
     description : "Currently, I am involved in the research of a new wavemeter, able to measure light in a very broad wavelength spectrum. In addition, I am also following the development of the electronics for our laser system."
 
-  - title: "R&D Electrical Designer"
+  - title: "R&D Engineer"
     company: "UpSens"
     company_url: "https://www.upsens.com/"
     # company_logo: "upsens.jpg"
     location: "Trento, Italy"
     date_start: "2019-04-01"
     date_end: "2020-05-15"
-    description: "I followed 3 research projects (one in the role of Junior Project Manager) concerning the development of IoT devices to be applied in smart kitchen appliances and green buildings."
-        
+    description: |
+      I followed the development of 3 research projects, one as *Junior Project Manager*.
+
+      - Hardware and firmware development for multiple IoT devices applied in smart-kitchen appliances.
+      - Hardware development for green buildings devices, including the usage of energy harvesting.
+
   - title: "Internship for MS Thesis Research"
     company: "UpSens"
     company_url: "https://www.upsens.com/"
