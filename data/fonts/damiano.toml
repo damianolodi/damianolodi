@@ -2,7 +2,7 @@
 name = "damiano"
 
 # Optional Google font URL
-google_fonts = "Vollkorn:400|Open+Sans:400,700|Roboto+Mono"
+google_fonts = "family=Open+Sans:wght@400;700&family=Roboto+Mono&family=Vollkorn"
 
 # Font families
 heading_font = "Vollkorn"
