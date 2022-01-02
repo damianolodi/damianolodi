@@ -47,7 +47,8 @@ experience:
     location: "Trento, Italy"
     date_start: "2018-10-01"
     date_end: "2019-03-01"
-    description: "I studied the technical and economic feasibility of an innovative multi-sensor device to be used on smart kitchen appliances. The results of my work were positive and I am still following the product development in its last phase before production."
+    description: |
+      I studied the technical and economic feasibility of an innovative multi-sensor device used on smart-kitchen appliances. The results of my work were positive and I continued to develop the product in its following phases.
 
 design:
   columns: '2'
