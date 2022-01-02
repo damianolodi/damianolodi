@@ -44,6 +44,16 @@ experience:
   coadvisor: ""
   mark: "103/110"
   thesis_title: "Numerical Solution of Maxwell Equations for Periodic and Defected Photonic Crystals"
-  description: ""
+  description: |
+    The Bachelor's Degree of the University of Trento covers a wide variety of topics, most of which are essentials for a deeper understanding of physical phenomena. A partial list of covered topics is listed in the following.
+    - General physics (mechanics, thermodynamics, electromagnetism)
+    - Quantum physics
+    - Physics laboratories
+      - Mechanics and thermodynamics
+      - Electronics (analog and digital)
+      - Optics
+      - Vacuum
+    - Computational physics
+    - Calculus and linear algebra
 
 ---
