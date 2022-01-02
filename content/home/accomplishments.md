@@ -23,6 +23,32 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
+#- certificate_url: "https://embeddedartistry.com/blog/certificate/ac8a8cf1/"
+- certificate_url: ""
+  date_end: "2021-10-01"
+  date_start: "2021-11-25"
+  organization: "Embedded Artistry"
+  organization_url: "https://embeddedartistry.com/"
+  title: "Creating a Cross-Platform Build System for Embedded Projects with CMake"
+  url: "https://embeddedartistry.com/course/creating-a-cross-platform-build-system-for-embedded-projects-with-cmake/"
+  description: |
+    This course teaches how to use CMake to configure and automate the construction process of complex software.
+
+    In particular, the course is focused on embedded projects and cross-compilation, explaining how to support multiple build configurations and operating systems in a single project structure. Finally, support for external tooling is explained, along with the creation of a standardized build interface using Make.
+
+#- certificate_url: "https://embeddedartistry.com/blog/certificate/5dc6c080/"
+- certificate_url: ""
+  date_end: "2021-06-01"
+  date_start: "2021-08-21"
+  organization: "Embedded Artistry"
+  organization_url: "https://embeddedartistry.com/"
+  title: "Introduction to Build Systems using Make"
+  url: "https://embeddedartistry.com/course/introduction-to-build-systems/"
+  description: |
+    This course teaches all the basic skills necessary to create, manage and automate a software build using Make.
+    
+    In particular, it explains how to compile and link software starting from both source code and libraries. In addition, it offers an in-depth primer to the use of the Make build system, while also covering common difficulties arising in most construction processes.
+
 - certificate_url: "https://www.coursera.org/account/accomplishments/specialization/RQJW583K256U"
   date_end: "2020-03-31"
   date_start: "2020-02-01"
