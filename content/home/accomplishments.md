@@ -30,7 +30,7 @@ item:
   organization_url: "https://www.coursera.org"
   title: "Google IT Automation with Python"
   url: "https://www.coursera.org/professional-certificates/google-it-automation"
-  description: |2-
+  description: |
     This 6-course Google specialization is designed to provide all the basics skills required for an IT professional, e.g. scripting with Python and Bash, usage of Git and Github, debugging techniques and configuration management with Puppet. Even though the IT professional is not the main career path that I am looking for, I decided to follow those courses because the concepts and skills taught are of great importance both in the tech industry and for personal use, since automation helps to reduce the time spent and the errors made while working on repetitive tasks.
 
     The specialization is composed of the following courses:
