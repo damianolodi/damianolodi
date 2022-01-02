@@ -33,12 +33,12 @@ experience:
       I am following the production and development of the company's main product, single-frequency lasers. Being LEOS a small company, I am filling roles in both management and engineering.
 
       - Project management
-        - Creation of project requirements, specifications and time-frames
-        - Organization of team activities and tasks
-        - Exploration and testing of new product features (product management)
+        - Creation of project requirements, specifications and time-frames.
+        - Organization of team activities and tasks.
+        - Exploration and testing of new product features (product management).
       - System production
-        - Production of all the mechanical and optical subsystems
-        - Assembly and testing of the laser head
+        - Production of all the mechanical and optical subsystems.
+        - Assembly and testing of the laser head.
 
   - title: "R&D Engineer"
     company: "LEOS"

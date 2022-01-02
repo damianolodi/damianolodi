@@ -31,10 +31,10 @@ experience:
   thesis_title: "Study of a Multi-Sensors System for Kitchen Environment Monitoring"
   description: |
     The Master’s Degree of the University of Trento granted me the possibility to investigate a vast number of topics relevant to modern physics, with a particular focus on nanophotonics. A partial list of covered topics is listed in the following.
-    - photonics and quantum optics
-    - optoelectronics
-    - laser cooling and magneto-optical traps
-    - signal analysis and FPGA development.
+    - Photonics and quantum optics
+    - Optoelectronics
+    - Laser cooling and magneto-optical traps
+    - Signal analysis and FPGA development
 
     <br/>During my first year, I developed an interest in industry and entrepreneurship, which led me to the decision of conducting my thesis research in a local startup. The theme of my thesis has been the study of the technological and financial feasibility of an innovative multi-sensors IoT device applied in smart-kitchen appliances.
 
