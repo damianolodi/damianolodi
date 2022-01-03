@@ -64,6 +64,6 @@ email: ""
 highlight_name: false
 ---
 
-I am a physics graduate currently working at LEOS, where we research and develop single-frequency lasers for high-precision spectroscopy. Even though applied research is my main job, I have a strong interest in the business side of modern technologies, and I always enjoy learning about new innovative companies and startups. My main interest is geared toward innovation in technology and AI to address climate change and environmental conservation.
+I am currently working on single-frequency lasers at LEOS, where my day-to-day is a mix of project management, product development and hardware production. When I am not busy making lasers, I enjoy diving deep into the study of embedded systems while also researching new technologies and startups. My main interest is towards innovations to address climate change and environmental conservation.
 
-In my free time, I enjoy painting miniature models and tasting new teas from all over the world. This is my way to briefly stop nowadays frenetic life and reorganize ideas before going back to work with even more energy towards my goals.
+In my free time, you can find me drinking a lot of tea or cultivating carnivorous plants. Watch out, they bite!
