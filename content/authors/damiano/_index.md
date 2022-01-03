@@ -18,10 +18,10 @@ bio: I am a physics graduate with a strong interest in business and practical ap
 
 # Interests to show in About widget
 interests:
-- Embedded Development
-- Data Science and AI
-- Electronics
-- Miniature Painting
+- Embedded Systems
+- Project Management
+- Entrepreneurship
+- Carnivorous Plants
 - Tea
 
 # Education to show in About widget
