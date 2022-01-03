@@ -12,7 +12,7 @@ Update with email when created
 
 ## About Me
 
-- :hammer_and_wrench: Making single frequency LASERs at LEOS s.r.l.
+- :hammer_and_wrench: Making single frequency LASERs at LEOS
 - :mortar_board: MS in experimental physics at [UniTn](https://www.unitn.it/en)
 - :books: Learning embedded development in my free time
 - :memo: Writing about what I am learning at [Journey to Engineering](https://journeytoengineering.netlify.app/)
