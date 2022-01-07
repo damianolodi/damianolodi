@@ -23,8 +23,7 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-#- certificate_url: "https://embeddedartistry.com/blog/certificate/ac8a8cf1/"
-- certificate_url: ""
+- certificate_url: "https://embeddedartistry.com/blog/certificate/ac8a8cf1/"
   date_end: "2021-11-25"
   date_start: "2021-10-01"
   organization: "Embedded Artistry"
@@ -36,8 +35,7 @@ item:
 
     In particular, the course is focused on embedded projects and cross-compilation, explaining how to support multiple build configurations and operating systems in a single project structure. Finally, support for external tooling is explained, along with the creation of a standardized build interface using Make.
 
-#- certificate_url: "https://embeddedartistry.com/blog/certificate/5dc6c080/"
-- certificate_url: ""
+- certificate_url: "https://embeddedartistry.com/blog/certificate/5dc6c080/"
   date_end: "2021-08-21"
   date_start: "2021-06-01"
   organization: "Embedded Artistry"
