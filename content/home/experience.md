@@ -48,11 +48,11 @@ experience:
     date_start: "2020-05-25"
     date_end: "2021-01-07"
     description : |
-      I followed the development of a new wavemeter capable of measuring a broad wavelength spectrum.
-
-      - Hardware review and debug of new PCB prototypes.
-      - Development of embedded algorithms for both MCUs and FPGAs.
-      - Data analysis and development of the new measurement algorithm (Python).
+      - Responsible for the development and testing of new features and products.
+      - Developed high-performance firmware for embedded systems using C++.
+      - Refactored and improved Verilog codebase to increase FPGA performances.
+      - Learned firmware architecture principles to create and document the system design of new products.
+      - Hardware review and debug of new PCB prototypes using KiCad.
     
   - title: "R&D Engineer"
     company: "UpSens"
