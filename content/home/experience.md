@@ -75,7 +75,8 @@ experience:
     date_start: "2018-10-01"
     date_end: "2019-03-01"
     description: |
-      I studied the technical and economic feasibility of an innovative multi-sensor device used on smart-kitchen appliances. The results of my work were positive and I continued to develop the product in its following phases.
+      - Developed a measurement algorithm to predict kitchen-related events using Python.
+      - My thesis achievements enhanced the company relationship with an international customer securing the funds to continue the development of the first B2B product.
 
 design:
   columns: '2'
