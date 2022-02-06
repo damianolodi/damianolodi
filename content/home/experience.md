@@ -30,7 +30,8 @@ experience:
     date_start: "2021-01-07"
     date_end: ""
     description : |
-      - Responsible for the production and testing of single-frequency lasers.- Established production workflows and processes to decrease delivery times.
+      - Responsible for the production and testing of single-frequency lasers.
+      - Established production workflows and processes to decrease delivery times.
       - Led a team of 3 people using project management techniques to improve planning, documentation and communication during project execution.
 
   - title: "R&D Engineer"
