@@ -27,7 +27,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: MS in Experimental Physics (Nanophotonics)
+  - course: MS in Physics (Nanophotonics)
     institution: University of Trento
     year: 2019
   - course: BS in Physics
