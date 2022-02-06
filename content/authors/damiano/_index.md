@@ -63,6 +63,6 @@ email: ""
 highlight_name: false
 ---
 
-I am currently working on single-frequency lasers at LEOS, where my day-to-day is a mix of project management, product development and hardware production. When I am not busy making lasers, I enjoy diving deep into the study of embedded systems while also researching new technologies and startups. My main interest is towards innovations to address climate change and environmental conservation.
+I am currently working on single-frequency lasers at LEOS, where my day-to-day is a mix of project management, product development and hardware production. When I am not busy making lasers, I enjoy diving deep into the study of embedded systems while also researching new technologies and startups.
 
 In my free time, you can find me drinking a lot of tea or cultivating carnivorous plants. Watch out, they bite!
