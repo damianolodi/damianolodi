@@ -62,10 +62,11 @@ experience:
     date_start: "2019-04-01"
     date_end: "2020-05-15"
     description: |
-      I followed the development of 3 research projects, one as *Junior Project Manager*.
-
-      - Hardware and firmware development for multiple IoT devices applied in smart-kitchen appliances.
-      - Hardware development for green buildings devices, including the usage of energy harvesting.
+      - Responsible for research and development of new devices for the B2B market.
+      - Developed low-power IoT products based on client custom requirements.
+      - Led a project funded by the major client with the role of Junior Project Manager.
+      - Automated laboratory measurement workflows using Python and embedded C code, reducing experiment setup and analysis time by more than 75\%.
+      - Developed embedded measurement algorithms using C on custom PCBs.
 
   - title: "Internship for MS Thesis Research"
     company: "UpSens"
