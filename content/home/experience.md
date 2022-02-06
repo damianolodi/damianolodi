@@ -30,15 +30,8 @@ experience:
     date_start: "2021-01-07"
     date_end: ""
     description : |
-      I am following the production and development of the company's main product, single-frequency lasers. Being LEOS a small company, I am filling roles in both management and engineering.
-
-      - Project management
-        - Creation of project requirements, specifications and time-frames.
-        - Organization of team activities and tasks.
-        - Exploration and testing of new product features (product management).
-      - System production
-        - Production of all the mechanical and optical subsystems.
-        - Assembly and testing of the laser head.
+      - Responsible for the production and testing of single-frequency lasers.- Established production workflows and processes to decrease delivery times.
+      - Led a team of 3 people using project management techniques to improve planning, documentation and communication during project execution.
 
   - title: "R&D Engineer"
     company: "LEOS"
