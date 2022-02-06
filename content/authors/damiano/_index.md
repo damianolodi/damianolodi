@@ -6,7 +6,7 @@ title: Damiano Lodi
 superuser: true
 
 # Role/position/tagline
-role: Researcher
+role: Project Manager
 
 # Organizations/Affiliations to show in About widget
 organizations:
