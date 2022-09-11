@@ -6,11 +6,11 @@ title: Damiano Lodi
 superuser: true
 
 # Role/position/tagline
-role: Project Manager
+role: Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: LEOS
+- name: "255 Labs"
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
