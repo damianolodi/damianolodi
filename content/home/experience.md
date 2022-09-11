@@ -22,13 +22,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: "Software Engineer"
+    company: "255 Labs"
+    company_url: "https://www.255labs.com/"
+    # company_logo: "255labs.jpg"
+    location: "Mantova, Italy"
+    date_start: "2022-05-16"
+    date_end: ""
+    description : |
+      - Development of machine vision algorithms.
+
   - title: "Project Manager"
     company: "LEOS"
     company_url: "http://www.leos-instruments.com/"
     # company_logo: "leos.jpg"
     location: "Rovereto, Italy"
     date_start: "2021-01-07"
-    date_end: ""
+    date_end: "2022-04-30"
     description : |
       - Responsible for the production and testing of single-frequency lasers.
       - Established production workflows and processes to decrease delivery times.
