@@ -63,6 +63,6 @@ email: ""
 highlight_name: false
 ---
 
-I am currently working on single-frequency lasers at LEOS, where my day-to-day is a mix of project management, product development and hardware production. When I am not busy making lasers, I enjoy diving deep into the study of embedded systems and project management techniques.
+I am currently a software engineer at 255 Labs, where in my day-to-day I develop and implement machine vision algorithms using C++. When I am not busy writing code, I enjoy diving deep into the study of embedded systems and project management techniques.
 
 In my free time, you can find me drinking a lot of tea or cultivating carnivorous plants. Watch out, they bite!
