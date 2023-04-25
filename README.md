@@ -12,7 +12,7 @@ Update with email when created
 
 ## About Me
 
-- :hammer_and_wrench: Making machine vision libraries at 255 Labs
+- :hammer_and_wrench: Making machine vision libraries at Opto Engineering
 - :mortar_board: MS in experimental physics at [UniTn](https://www.unitn.it/en)
 - :books: Learning embedded development in my free time
 - :memo: Writing about what I am learning at [Journey to Engineering](https://journeytoengineering.netlify.app/)
