@@ -15,5 +15,5 @@ Update with email when created
 - :hammer_and_wrench: Making machine vision libraries at Opto Engineering
 - :mortar_board: MS in experimental physics at [UniTn](https://www.unitn.it/en)
 - :books: Learning embedded development in my free time
-- :memo: Writing about what I am learning at [Journey to Engineering](https://journeytoengineering.netlify.app/)
+- :memo: Writing about what I am learning [on my website](https://www.damianolodi.com/)
 - :seedling: Growing carnivorous plants
